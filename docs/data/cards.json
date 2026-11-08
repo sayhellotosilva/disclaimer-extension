@@ -490,11 +490,13 @@
       ],
       [
        "Runway",
-       "Gen-4.5"
+       "Gen-4.5",
+       "runway"
       ],
       [
        "Luma AI",
-       "Ray 2"
+       "Ray 2",
+       "luma"
       ]
      ]
     ],
@@ -503,19 +505,23 @@
      [
       [
        "ByteDance",
-       "Seedream, Seedance"
+       "Seedream, Seedance",
+       "seedance"
       ],
       [
        "Alibaba",
-       "Wan, Qwen"
+       "Wan, Qwen",
+       "qwen"
       ],
       [
        "Kuaishou",
-       "Kling"
+       "Kling",
+       "kling"
       ],
       [
        "Tencent",
-       "Hunyuan 3D"
+       "Hunyuan 3D",
+       "hunyuan"
       ]
      ]
     ],
@@ -524,7 +530,8 @@
      [
       [
        "Black Forest Labs",
-       "Flux · Germany"
+       "Flux · Germany",
+       "flux"
       ],
       [
        "Freepik",
@@ -537,13 +544,134 @@
      [
       [
        "Lightricks",
-       "LTX 2"
+       "LTX 2",
+       "ltx"
       ]
      ]
     ]
    ],
    "note": "Model list from Figma’s own page <a class=\"src\" href=\"https://weave.figma.com/pricing\" target=\"_blank\" rel=\"noopener\">Figma Weave pricing page ↗</a>. Makers grouped by headquarters <span class=\"chip est\">estimate</span>",
    "why": "<p>The brand you see isn’t the company doing the work. One session in Figma Weave can send your prompts and images to <b>11 companies in 4 countries</b>, each with its own data centres, water use and labour chain.</p>"
+  },
+  "seedance": {
+   "name": "Seedance",
+   "maker": "ByteDance",
+   "meta": "ByteDance · China",
+   "secs": [
+    [
+     "Who makes it",
+     [
+      "<div class=\"row\"><dt>Company</dt><dd>ByteDance, headquartered in China</dd></div>",
+      "<div class=\"row\"><dt>Models</dt><dd>Seedance and Seedream (video and image)</dd></div>"
+     ]
+    ]
+   ],
+   "xray": "<p>This card hasn’t been researched yet. It only says who makes Seedance: every other section needs checked sources first.</p><p><a class=\"src\" href=\"https://github.com/sayhellotosilva/disclaimer-extension/issues/new?title=Sources%20for%20Seedance\" target=\"_blank\" rel=\"noopener\">Suggest a source ↗</a></p>"
+  },
+  "kling": {
+   "name": "Kling",
+   "maker": "Kuaishou",
+   "meta": "Kuaishou · China",
+   "secs": [
+    [
+     "Who makes it",
+     [
+      "<div class=\"row\"><dt>Company</dt><dd>Kuaishou, headquartered in China</dd></div>",
+      "<div class=\"row\"><dt>Models</dt><dd>Kling (video)</dd></div>"
+     ]
+    ]
+   ],
+   "xray": "<p>This card hasn’t been researched yet. It only says who makes Kling: every other section needs checked sources first.</p><p><a class=\"src\" href=\"https://github.com/sayhellotosilva/disclaimer-extension/issues/new?title=Sources%20for%20Kling\" target=\"_blank\" rel=\"noopener\">Suggest a source ↗</a></p>"
+  },
+  "qwen": {
+   "name": "Qwen",
+   "maker": "Alibaba",
+   "meta": "Alibaba · China",
+   "secs": [
+    [
+     "Who makes it",
+     [
+      "<div class=\"row\"><dt>Company</dt><dd>Alibaba, headquartered in China</dd></div>",
+      "<div class=\"row\"><dt>Models</dt><dd>Qwen and Wan (text, image and video)</dd></div>"
+     ]
+    ]
+   ],
+   "xray": "<p>This card hasn’t been researched yet. It only says who makes Qwen: every other section needs checked sources first.</p><p><a class=\"src\" href=\"https://github.com/sayhellotosilva/disclaimer-extension/issues/new?title=Sources%20for%20Qwen\" target=\"_blank\" rel=\"noopener\">Suggest a source ↗</a></p>"
+  },
+  "hunyuan": {
+   "name": "Hunyuan",
+   "maker": "Tencent",
+   "meta": "Tencent · China",
+   "secs": [
+    [
+     "Who makes it",
+     [
+      "<div class=\"row\"><dt>Company</dt><dd>Tencent, headquartered in China</dd></div>",
+      "<div class=\"row\"><dt>Models</dt><dd>Hunyuan (text, image and 3D)</dd></div>"
+     ]
+    ]
+   ],
+   "xray": "<p>This card hasn’t been researched yet. It only says who makes Hunyuan: every other section needs checked sources first.</p><p><a class=\"src\" href=\"https://github.com/sayhellotosilva/disclaimer-extension/issues/new?title=Sources%20for%20Hunyuan\" target=\"_blank\" rel=\"noopener\">Suggest a source ↗</a></p>"
+  },
+  "runway": {
+   "name": "Runway",
+   "maker": "Runway",
+   "meta": "Runway · USA",
+   "secs": [
+    [
+     "Who makes it",
+     [
+      "<div class=\"row\"><dt>Company</dt><dd>Runway, headquartered in USA</dd></div>",
+      "<div class=\"row\"><dt>Models</dt><dd>Gen-4.5 and other video models</dd></div>"
+     ]
+    ]
+   ],
+   "xray": "<p>This card hasn’t been researched yet. It only says who makes Runway: every other section needs checked sources first.</p><p><a class=\"src\" href=\"https://github.com/sayhellotosilva/disclaimer-extension/issues/new?title=Sources%20for%20Runway\" target=\"_blank\" rel=\"noopener\">Suggest a source ↗</a></p>"
+  },
+  "luma": {
+   "name": "Luma AI",
+   "maker": "Luma AI",
+   "meta": "Luma AI · USA",
+   "secs": [
+    [
+     "Who makes it",
+     [
+      "<div class=\"row\"><dt>Company</dt><dd>Luma AI, headquartered in USA</dd></div>",
+      "<div class=\"row\"><dt>Models</dt><dd>Ray and Dream Machine (video)</dd></div>"
+     ]
+    ]
+   ],
+   "xray": "<p>This card hasn’t been researched yet. It only says who makes Luma AI: every other section needs checked sources first.</p><p><a class=\"src\" href=\"https://github.com/sayhellotosilva/disclaimer-extension/issues/new?title=Sources%20for%20Luma%20AI\" target=\"_blank\" rel=\"noopener\">Suggest a source ↗</a></p>"
+  },
+  "flux": {
+   "name": "Flux",
+   "maker": "Black Forest Labs",
+   "meta": "Black Forest Labs · Germany",
+   "secs": [
+    [
+     "Who makes it",
+     [
+      "<div class=\"row\"><dt>Company</dt><dd>Black Forest Labs, headquartered in Germany</dd></div>",
+      "<div class=\"row\"><dt>Models</dt><dd>Flux (image)</dd></div>"
+     ]
+    ]
+   ],
+   "xray": "<p>This card hasn’t been researched yet. It only says who makes Flux: every other section needs checked sources first.</p><p><a class=\"src\" href=\"https://github.com/sayhellotosilva/disclaimer-extension/issues/new?title=Sources%20for%20Flux\" target=\"_blank\" rel=\"noopener\">Suggest a source ↗</a></p>"
+  },
+  "ltx": {
+   "name": "LTX",
+   "maker": "Lightricks",
+   "meta": "Lightricks · Israel",
+   "secs": [
+    [
+     "Who makes it",
+     [
+      "<div class=\"row\"><dt>Company</dt><dd>Lightricks, headquartered in Israel</dd></div>",
+      "<div class=\"row\"><dt>Models</dt><dd>LTX (video)</dd></div>"
+     ]
+    ]
+   ],
+   "xray": "<p>This card hasn’t been researched yet. It only says who makes LTX: every other section needs checked sources first.</p><p><a class=\"src\" href=\"https://github.com/sayhellotosilva/disclaimer-extension/issues/new?title=Sources%20for%20LTX\" target=\"_blank\" rel=\"noopener\">Suggest a source ↗</a></p>"
   }
  },
  "aliases": [
@@ -730,6 +858,96 @@
   {
    "id": "weave",
    "re": "\\bWeavy\\b",
+   "flags": "",
+   "ambiguous": false
+  },
+  {
+   "id": "seedance",
+   "re": "\\bSeedance(?: \\d+(?:\\.\\d+)?)?(?: (?:Pro|Lite))?\\b",
+   "flags": "",
+   "ambiguous": false
+  },
+  {
+   "id": "seedance",
+   "re": "\\bSeedream(?: \\d+(?:\\.\\d+)?)?\\b",
+   "flags": "",
+   "ambiguous": false
+  },
+  {
+   "id": "kling",
+   "re": "\\bKling(?: AI)?(?: \\d+(?:\\.\\d+)?)?\\b",
+   "flags": "",
+   "ambiguous": false
+  },
+  {
+   "id": "qwen",
+   "re": "\\bQwen[\\d.]*(?:-[\\w.]+)?\\b",
+   "flags": "",
+   "ambiguous": false
+  },
+  {
+   "id": "qwen",
+   "re": "\\bWan \\d+(?:\\.\\d+)?\\b",
+   "flags": "",
+   "ambiguous": false
+  },
+  {
+   "id": "hunyuan",
+   "re": "\\bHunyuan(?: ?3D| Video| Image)?(?: \\d+(?:\\.\\d+)?)?\\b",
+   "flags": "",
+   "ambiguous": false
+  },
+  {
+   "id": "runway",
+   "re": "\\bRunway(?:ML| ML| Gen-\\d+(?:\\.\\d+)?| Aleph)\\b",
+   "flags": "",
+   "ambiguous": false
+  },
+  {
+   "id": "runway",
+   "re": "\\bGen-4(?:\\.5)?\\b",
+   "flags": "",
+   "ambiguous": true
+  },
+  {
+   "id": "luma",
+   "re": "\\bLuma (?:AI|Ray ?\\d+(?:\\.\\d+)?|Dream Machine)\\b",
+   "flags": "",
+   "ambiguous": false
+  },
+  {
+   "id": "luma",
+   "re": "\\bDream Machine\\b",
+   "flags": "",
+   "ambiguous": true
+  },
+  {
+   "id": "flux",
+   "re": "\\bBlack Forest Labs\\b",
+   "flags": "",
+   "ambiguous": false
+  },
+  {
+   "id": "flux",
+   "re": "\\bFLUX\\.\\d(?: \\[?(?:pro|dev|schnell|Kontext)\\]?)?",
+   "flags": "i",
+   "ambiguous": false
+  },
+  {
+   "id": "flux",
+   "re": "\\bFlux (?:Kontext|Pro|Dev|Schnell|\\d(?:\\.\\d)?)\\b",
+   "flags": "",
+   "ambiguous": false
+  },
+  {
+   "id": "ltx",
+   "re": "\\bLTX[- ](?:Video|2)\\b",
+   "flags": "",
+   "ambiguous": false
+  },
+  {
+   "id": "ltx",
+   "re": "\\bLightricks\\b",
    "flags": "",
    "ambiguous": false
   }

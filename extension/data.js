@@ -95,6 +95,11 @@ const ok  = '<span class="chip ok">sourced</span>';
 const co  = '<span class="chip co">company says</span>';
 const est = '<span class="chip est">estimate</span>';
 const row = (k,v) => `<div class="row"><dt>${k}</dt><dd>${v}</dd></div>`;
+const stub = (name, maker, country, models) => ({
+  name, maker, meta:`${maker} · ${country}`,
+  secs:[["Who makes it",[row("Company",`${maker}, headquartered in ${country}`),row("Models",models)]]],
+  xray:`<p>This card hasn’t been researched yet. It only says who makes ${name}: every other section needs checked sources first.</p><p><a class="src" href="https://github.com/sayhellotosilva/disclaimer-extension/issues/new?title=Sources%20for%20${encodeURIComponent(name)}" target="_blank" rel="noopener">Suggest a source ↗</a></p>`
+});
 const jump = (id,label) => `<button class="jump" data-jump="${id}">${label} →</button>`;
 const mine = (slug,name,where) => `<tr><th><a href="https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-${slug}.pdf" target="_blank" rel="noopener">${name}</a></th><td>${where}</td></tr>`;
 const MINE_TABLE = `<table class="mines">
@@ -298,13 +303,24 @@ const DATA = {
   weave:{type:"wrapper",name:"Figma Weave",maker:"Figma",meta:`Figma · USA · formerly Weavy, bought by Figma in 2025 ${src("figma")}`,
     intro:"Figma Weave has no AI model of its own. It sends your work to these companies’ models:",
     groups:[
-      ["USA",[["Google","Veo 3.1, Nano Banana","gemini"],["OpenAI","GPT Image 1.5","chatgpt"],["xAI","Grok Imagine","grok"],["Runway","Gen-4.5"],["Luma AI","Ray 2"]]],
-      ["China",[["ByteDance","Seedream, Seedance"],["Alibaba","Wan, Qwen"],["Kuaishou","Kling"],["Tencent","Hunyuan 3D"]]],
-      ["Europe",[["Black Forest Labs","Flux · Germany"],["Freepik","Mystic · Spain"]]],
-      ["Israel",[["Lightricks","LTX 2"]]]
+      ["USA",[["Google","Veo 3.1, Nano Banana","gemini"],["OpenAI","GPT Image 1.5","chatgpt"],["xAI","Grok Imagine","grok"],["Runway","Gen-4.5","runway"],["Luma AI","Ray 2","luma"]]],
+      ["China",[["ByteDance","Seedream, Seedance","seedance"],["Alibaba","Wan, Qwen","qwen"],["Kuaishou","Kling","kling"],["Tencent","Hunyuan 3D","hunyuan"]]],
+      ["Europe",[["Black Forest Labs","Flux · Germany","flux"],["Freepik","Mystic · Spain"]]],
+      ["Israel",[["Lightricks","LTX 2","ltx"]]]
     ],
     note:`Model list from Figma’s own page ${src("weave")}. Makers grouped by headquarters ${est}`,
-    why:`<p>The brand you see isn’t the company doing the work. One session in Figma Weave can send your prompts and images to <b>11 companies in 4 countries</b>, each with its own data centres, water use and labour chain.</p>`}
+    why:`<p>The brand you see isn’t the company doing the work. One session in Figma Weave can send your prompts and images to <b>11 companies in 4 countries</b>, each with its own data centres, water use and labour chain.</p>`},
+
+  /* Cards not researched yet: they say who makes the tool and ask for sources.
+     Replace one with a full card once its facts are checked. */
+  seedance: stub("Seedance","ByteDance","China","Seedance and Seedream (video and image)"),
+  kling:    stub("Kling","Kuaishou","China","Kling (video)"),
+  qwen:     stub("Qwen","Alibaba","China","Qwen and Wan (text, image and video)"),
+  hunyuan:  stub("Hunyuan","Tencent","China","Hunyuan (text, image and 3D)"),
+  runway:   stub("Runway","Runway","USA","Gen-4.5 and other video models"),
+  luma:     stub("Luma AI","Luma AI","USA","Ray and Dream Machine (video)"),
+  flux:     stub("Flux","Black Forest Labs","Germany","Flux (image)"),
+  ltx:      stub("LTX","Lightricks","Israel","LTX (video)")
 };
 
 
@@ -343,7 +359,22 @@ const ALIASES = [
   {id:"mistral",   re:/\bMistral\b/, ambiguous:true},
   {id:"midjourney",re:/\bMidjourney(?: V?\d+)?\b/},
   {id:"weave",     re:/\bFigma Weave\b/},
-  {id:"weave",     re:/\bWeavy\b/}
+  {id:"weave",     re:/\bWeavy\b/},
+  {id:"seedance",  re:/\bSeedance(?: \d+(?:\.\d+)?)?(?: (?:Pro|Lite))?\b/},
+  {id:"seedance",  re:/\bSeedream(?: \d+(?:\.\d+)?)?\b/},
+  {id:"kling",     re:/\bKling(?: AI)?(?: \d+(?:\.\d+)?)?\b/},
+  {id:"qwen",      re:/\bQwen[\d.]*(?:-[\w.]+)?\b/},
+  {id:"qwen",      re:/\bWan \d+(?:\.\d+)?\b/},
+  {id:"hunyuan",   re:/\bHunyuan(?: ?3D| Video| Image)?(?: \d+(?:\.\d+)?)?\b/},
+  {id:"runway",    re:/\bRunway(?:ML| ML| Gen-\d+(?:\.\d+)?| Aleph)\b/},
+  {id:"runway",    re:/\bGen-4(?:\.5)?\b/, ambiguous:true},
+  {id:"luma",      re:/\bLuma (?:AI|Ray ?\d+(?:\.\d+)?|Dream Machine)\b/},
+  {id:"luma",      re:/\bDream Machine\b/, ambiguous:true},
+  {id:"flux",      re:/\bBlack Forest Labs\b/},
+  {id:"flux",      re:/\bFLUX\.\d(?: \[?(?:pro|dev|schnell|Kontext)\]?)?/i},
+  {id:"flux",      re:/\bFlux (?:Kontext|Pro|Dev|Schnell|\d(?:\.\d)?)\b/},
+  {id:"ltx",       re:/\bLTX[- ](?:Video|2)\b/},
+  {id:"ltx",       re:/\bLightricks\b/}
 ];
 
 /* Words that show a page is about AI (needed before ambiguous names are marked). */

@@ -54,11 +54,14 @@ h2::before{content:"* ";color:var(--accent)}
 .prose p{margin:0 0 14px;max-width:62ch}
 .pull{font-size:clamp(20px,3vw,24px);line-height:1.4;font-weight:500;margin:6px 0 16px;max-width:34ch;text-wrap:balance}
 
-.secs{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,220px),1fr));gap:1px;background:var(--rule);border:1px solid var(--rule);border-radius:12px;overflow:hidden}
-.sec{background:var(--panel);padding:16px 18px;min-width:0}
-.sec b{display:block;font:500 11px var(--mono);letter-spacing:.1em;text-transform:uppercase;color:var(--accent-ink);margin-bottom:6px}
-.sec span{font-size:14.5px;color:var(--muted)}
-.sec.x{background:var(--soft)}
+.secs{list-style:none;margin:0;padding:0;border-top:1px solid var(--ink)}
+.secs li{display:grid;grid-template-columns:44px minmax(0,1fr) minmax(0,1.4fr);gap:8px 20px;align-items:baseline;padding:14px 12px;border-bottom:1px solid var(--rule)}
+.secs .n{font:500 12px var(--mono);color:var(--muted)}
+.secs b{font-weight:600;font-size:17px}
+.secs .d{font-size:15px;color:var(--muted)}
+.secs li.x{background:var(--soft);border-bottom:0;border-radius:0 0 10px 10px;margin-top:-1px}
+.secs li.x .n,.secs li.x b{color:var(--accent-ink)}
+@media (max-width:620px){.secs li{grid-template-columns:36px 1fr;row-gap:2px}.secs .d{grid-column:2}}
 
 ol.steps{counter-reset:s;list-style:none;margin:0;padding:0;display:grid;gap:10px}
 ol.steps li{counter-increment:s;display:grid;grid-template-columns:34px 1fr;gap:12px;align-items:baseline;background:var(--panel);border:1px solid var(--rule);border-radius:10px;padding:12px 16px}
@@ -105,16 +108,16 @@ footer{margin-top:64px;padding-top:20px;border-top:1px solid var(--rule);font:12
 
   <section aria-labelledby="what">
     <h2 id="what">What a card shows</h2>
-    <div class="secs">
-      <div class="sec"><b>Where it lives</b><span>The data centres and chips it runs on.</span></div>
-      <div class="sec"><b>What it’s made of</b><span>The minerals in those chips, and where they’re mined.</span></div>
-      <div class="sec"><b>Who trains it</b><span>The workers and outsourcing firms behind it.</span></div>
-      <div class="sec"><b>Environment</b><span>Energy, water and emissions.</span></div>
-      <div class="sec"><b>Terms and conditions</b><span>What happens to your data, and what you can switch off.</span></div>
-      <div class="sec"><b>Politics</b><span>What it spends lobbying the EU.</span></div>
-      <div class="sec x"><b>disclaimer</b><span>Its biggest documented controversy.</span></div>
-    </div>
-    <p class="prose" style="margin-top:14px;color:var(--muted);font-size:15px">Covers ChatGPT, Gemini, Claude, Copilot, Meta AI, Grok, DeepSeek, Perplexity, Le Chat, Midjourney and Figma Weave. Model names lead to their maker: “Opus 5.5” opens Claude, “GPT-5” opens ChatGPT.</p>
+    <ol class="secs">
+      <li><span class="n">01</span><b>Where it lives</b><span class="d">The data centres and chips it runs on.</span></li>
+      <li><span class="n">02</span><b>What it’s made of</b><span class="d">The minerals in those chips, and where they’re mined.</span></li>
+      <li><span class="n">03</span><b>Who trains it</b><span class="d">The workers and outsourcing firms behind it.</span></li>
+      <li><span class="n">04</span><b>Environment</b><span class="d">Energy, water and emissions.</span></li>
+      <li><span class="n">05</span><b>Terms and conditions</b><span class="d">What happens to your data, and what you can switch off.</span></li>
+      <li><span class="n">06</span><b>Politics</b><span class="d">What it spends lobbying the EU.</span></li>
+      <li class="x"><span class="n">07</span><b>disclaimer</b><span class="d">Its biggest documented controversy. Always open.</span></li>
+    </ol>
+    <p class="prose" style="margin-top:14px;color:var(--muted);font-size:15px">Works for any AI tool, today’s and the ones still to come. Model names lead to their maker: “Opus 5.5” opens Claude, “GPT-5” opens ChatGPT.</p>
   </section>
 
   <section aria-labelledby="install">

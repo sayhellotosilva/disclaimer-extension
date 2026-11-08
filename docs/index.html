@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>disclaimer</title>
+<meta name="description" content="A Chrome extension that marks AI tools on any web page and shows what's behind them: data centres, minerals, workers, environment, your data and politics.">
+<meta property="og:title" content="disclaimer — the disclaimer AI companies don’t write">
+<meta property="og:description" content="Marks AI tools on any web page and shows what’s behind them. Every fact sourced.">
+<meta property="og:image" content="assets/screenshot.png">
+<link rel="icon" href="assets/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;500;700&display=swap">
+<style>
+/* Layout: one narrow column like a footnote-heavy essay; the asterisk is the only ornament. */
+:root{
+  --bg:#eef0f2; --panel:#ffffff; --ink:#16181b; --muted:#5d636a; --rule:#d9dce0;
+  --accent:#d0661f; --accent-ink:#9a4a17; --soft:rgba(232,128,58,.14);
+  --mono:"JetBrains Mono",ui-monospace,Menlo,monospace; --sans:"Instrument Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+}
+@media (prefers-color-scheme: dark){:root{
+  --bg:#0f1114; --panel:#171a1e; --ink:#e7e9eb; --muted:#9aa1a8; --rule:#272b31;
+  --accent:#ee8a48; --accent-ink:#f0a06a; --soft:rgba(238,138,72,.14); color-scheme:dark}}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.6 var(--sans);padding-inline:16px;-webkit-font-smoothing:antialiased}
+.wrap{max-width:760px;margin:0 auto;padding-block:40px 64px}
+a{color:inherit}
+:focus-visible{outline:2px solid var(--accent);outline-offset:3px;border-radius:4px}
+
+/* wordmark */
+.wm{font:400 clamp(44px,10vw,84px)/1 var(--mono);color:var(--muted);letter-spacing:-.02em;display:inline-block;padding-top:.55em}
+.wm .ai{color:var(--accent);font-weight:700}
+.wm .i{position:relative}
+.wm .i::before{content:"*";position:absolute;left:50%;top:-.6em;transform:translateX(-50%);color:var(--accent);font-weight:700;font-size:1.1em}
+
+header{padding-block:12px 8px}
+.lede{font-size:clamp(20px,3.2vw,26px);line-height:1.35;margin:18px 0 6px;max-width:34ch;text-wrap:balance;font-weight:500}
+.sub{color:var(--muted);margin:0 0 24px;max-width:56ch}
+.ctas{display:flex;flex-wrap:wrap;gap:10px;align-items:center}
+.btn{display:inline-flex;align-items:center;gap:8px;padding:12px 18px;border-radius:999px;text-decoration:none;font-weight:600;font-size:15px}
+.btn.primary{background:var(--accent);color:#fff}
+.btn.primary:hover{filter:brightness(1.06)}
+.btn.ghost{border:1px solid var(--rule);background:var(--panel)}
+.meta{font:12px var(--mono);color:var(--muted)}
+
+.demo{margin:36px 0 8px;border-radius:14px;overflow:hidden;border:1px solid var(--rule);background:var(--panel)}
+.demo img{display:block;width:100%;height:auto;max-width:100%}
+.cap{font:12px var(--mono);color:var(--muted);margin:0 0 48px}
+
+h2{font:500 12px var(--mono);letter-spacing:.12em;text-transform:uppercase;color:var(--accent-ink);margin:56px 0 14px}
+h2::before{content:"* ";color:var(--accent)}
+.prose p{margin:0 0 14px;max-width:62ch}
+.pull{font-size:clamp(20px,3vw,24px);line-height:1.4;font-weight:500;margin:6px 0 16px;max-width:34ch;text-wrap:balance}
+
+.secs{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,220px),1fr));gap:1px;background:var(--rule);border:1px solid var(--rule);border-radius:12px;overflow:hidden}
+.sec{background:var(--panel);padding:16px 18px;min-width:0}
+.sec b{display:block;font:500 11px var(--mono);letter-spacing:.1em;text-transform:uppercase;color:var(--accent-ink);margin-bottom:6px}
+.sec span{font-size:14.5px;color:var(--muted)}
+.sec.x{background:var(--soft)}
+
+ol.steps{counter-reset:s;list-style:none;margin:0;padding:0;display:grid;gap:10px}
+ol.steps li{counter-increment:s;display:grid;grid-template-columns:34px 1fr;gap:12px;align-items:baseline;background:var(--panel);border:1px solid var(--rule);border-radius:10px;padding:12px 16px}
+ol.steps li::before{content:counter(s);font:700 13px var(--mono);color:var(--accent)}
+code{font:13.5px var(--mono);background:var(--soft);padding:1px 6px;border-radius:4px}
+details.es{margin-top:14px;font-size:14.5px;color:var(--muted)}
+details.es summary{cursor:pointer;font:12px var(--mono)}
+
+.labels{display:grid;gap:8px;margin:12px 0 0}
+.lab{display:grid;grid-template-columns:118px 1fr;gap:12px;align-items:baseline}
+.chip{font:10px var(--mono);letter-spacing:.06em;text-transform:uppercase;padding:2px 7px;border-radius:3px;width:fit-content}
+.chip.ok{color:#1e7a46;background:rgba(111,191,142,.18)}
+.chip.co{color:var(--muted);background:var(--rule)}
+.chip.est{color:#8a6200;background:rgba(224,180,82,.2)}
+@media (prefers-color-scheme: dark){.chip.ok{color:#7fd3a0}.chip.est{color:#ecc56a}}
+
+ul.limits{margin:0;padding-left:20px;max-width:62ch}
+ul.limits li{margin-bottom:8px}
+
+footer{margin-top:64px;padding-top:20px;border-top:1px solid var(--rule);font:12.5px/1.7 var(--mono);color:var(--muted);display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <span class="wm" role="img" aria-label="disclaimer">discl<span class="ai">a<span class="i">ı</span></span>mer</span>
+    <p class="lede">The disclaimer AI companies don’t write.</p>
+    <p class="sub">A free Chrome extension that marks AI tools on any web page and shows what’s behind them: the data centres, the minerals, the workers, the water, your data and the politics.</p>
+    <div class="ctas">
+      <a class="btn primary" href="https://github.com/sayhellotosilva/disclaimer-extension/releases/latest/download/disclaimer-extension.zip">Download for Chrome</a>
+      <a class="btn ghost" href="https://github.com/sayhellotosilva/disclaimer-extension">Code &amp; sources on GitHub</a>
+    </div>
+    <p class="meta" style="margin-top:12px">v1.0 · free and open source · sends no data · Chrome, Edge, Brave, Arc</p>
+  </header>
+
+  <figure class="demo" style="margin-inline:0"><img src="assets/demo.gif" width="800" height="576" alt="A social media post where GPT-5, Opus 5.5 and Figma Weave are marked with orange asterisks; hovering opens a glass card with sections about data centres, workers and terms and conditions."></figure>
+  <p class="cap">disclaimer on a social media post. Every name with an asterisk opens a card.</p>
+
+  <section class="prose" aria-labelledby="why">
+    <h2 id="why">Why</h2>
+    <p class="pull">AI is designed to feel weightless: a text box, an answer, nothing else.</p>
+    <p>Behind every prompt there is a building on farmland, a river cooling it, minerals mined in Congo and China, people in Nairobi and Manila labelling data, and a company lobbying the people who write the rules. None of it shows up in the interface.</p>
+    <p>Most of us sit in the middle: not the people who own these systems, not the people who pay the highest price for them, but the people who use them every day because work expects it. We’re not powerless. We’re mostly uninformed. disclaimer puts the missing footnote right where you read about AI, so you can decide what to do with it.</p>
+  </section>
+
+  <section aria-labelledby="what">
+    <h2 id="what">What a card shows</h2>
+    <div class="secs">
+      <div class="sec"><b>Where it lives</b><span>The data centres and chips it runs on.</span></div>
+      <div class="sec"><b>What it’s made of</b><span>The minerals in those chips, and where they’re mined.</span></div>
+      <div class="sec"><b>Who trains it</b><span>The workers and outsourcing firms behind it.</span></div>
+      <div class="sec"><b>Environment</b><span>Energy, water and emissions.</span></div>
+      <div class="sec"><b>Terms and conditions</b><span>What happens to your data, and what you can switch off.</span></div>
+      <div class="sec"><b>Politics</b><span>What it spends lobbying the EU.</span></div>
+      <div class="sec x"><b>disclaimer</b><span>Its biggest documented controversy.</span></div>
+    </div>
+    <p class="prose" style="margin-top:14px;color:var(--muted);font-size:15px">Covers ChatGPT, Gemini, Claude, Copilot, Meta AI, Grok, DeepSeek, Perplexity, Le Chat, Midjourney and Figma Weave. Model names lead to their maker: “Opus 5.5” opens Claude, “GPT-5” opens ChatGPT.</p>
+  </section>
+
+  <section aria-labelledby="install">
+    <h2 id="install">Install in two minutes</h2>
+    <ol class="steps">
+      <li><span><a href="https://github.com/sayhellotosilva/disclaimer-extension/releases/latest/download/disclaimer-extension.zip">Download the zip</a> and unzip it.</span></li>
+      <li><span>In Chrome, go to <code>chrome://extensions</code>.</span></li>
+      <li><span>Turn on <b>Developer mode</b>, top right.</span></li>
+      <li><span>Click <b>Load unpacked</b> and choose the <code>disclaimer-extension</code> folder.</span></li>
+      <li><span>Pin the orange asterisk, then open any page that talks about AI.</span></li>
+    </ol>
+    <details class="es"><summary>Español</summary>
+      <p>Descarga el zip y descomprímelo. En Chrome, ve a <code>chrome://extensions</code>, activa el <b>Modo de desarrollador</b> y haz clic en <b>Cargar extensión sin empaquetar</b>. Elige la carpeta <code>disclaimer-extension</code>. disclaimer lee el texto de las páginas en tu ordenador y no envía nada a ningún sitio.</p>
+    </details>
+  </section>
+
+  <section class="prose" aria-labelledby="sources">
+    <h2 id="sources">Sources</h2>
+    <p>Every fact links to where it comes from: research, official data, established press and the EU Transparency Register. Each one carries a label:</p>
+    <div class="labels">
+      <div class="lab"><span class="chip ok">sourced</span><span>Research, official data or established press.</span></div>
+      <div class="lab"><span class="chip co">company says</span><span>The company’s own claim, from its own documents.</span></div>
+      <div class="lab"><span class="chip est">estimate</span><span>A calculation or approximation.</span></div>
+    </div>
+    <p style="margin-top:14px">Checked in October 2026. Found something wrong or out of date? <a href="https://github.com/sayhellotosilva/disclaimer-extension/issues">Tell me on GitHub</a>.</p>
+  </section>
+
+  <section class="prose" aria-labelledby="privacy">
+    <h2 id="privacy">Privacy</h2>
+    <p>disclaimer reads the text of the pages you visit on your own computer, only to find AI names. It never sends that text, or anything about you, anywhere: no server, no account, no tracking. The only thing it downloads is the public card data from GitHub, so a correction reaches everyone without reinstalling.</p>
+  </section>
+
+  <section aria-labelledby="limits">
+    <h2 id="limits">Limits</h2>
+    <ul class="limits">
+      <li><b>It’s a curation.</b> Choosing the categories and the facts is itself a way of classifying the world. Every choice is sourced so you can check it.</li>
+      <li><b>Transparency can look worse than silence.</b> A company that publishes its water use can look dirtier than one that publishes nothing. “Not disclosed” is a finding, not a clean record.</li>
+      <li><b>Facts change.</b> Data centres open, lawsuits end. The code is open so it can be corrected.</li>
+      <li><b>It was built with AI.</b> I made it with Claude, which has its own card.</li>
+    </ul>
+  </section>
+
+  <footer>
+    <span>Made by <a href="https://www.linkedin.com/in/raphaelllsilva">Raphael Silva</a> · A technical history of AI · Master in Applied AI for Arts and Design, Elisava, Barcelona, 2026</span>
+    <span>Code MIT · Texts CC BY 4.0</span>
+  </footer>
+</div>
+</body>
+</html>

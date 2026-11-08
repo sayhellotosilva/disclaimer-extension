@@ -1,0 +1,741 @@
+{
+ "schema": 1,
+ "updated": "2026-11-08",
+ "cards": {
+  "chatgpt": {
+   "name": "ChatGPT",
+   "maker": "OpenAI",
+   "meta": "OpenAI · USA · free, or Plus at $20/month (US) <a class=\"src\" href=\"https://axios.com/2026/01/16/chatgpt-ai-openai-ads\" target=\"_blank\" rel=\"noopener\">Axios, Jan 2026 ↗</a>",
+   "secs": [
+    [
+     "Where it lives",
+     [
+      "<div class=\"row\"><dt>Trained</dt><dd>GPT-4 was trained on a Microsoft supercomputer in <b>West Des Moines, Iowa</b>, USA. <span class=\"chip ok\">sourced</span> <a class=\"src\" href=\"https://www.dailyherald.com/20230909/business/artificial-intelligence-technology-behind-chatgpt-was-built-in-iowa-with-a-lot-of-water/\" target=\"_blank\" rel=\"noopener\">Associated Press, Sep 2023 ↗</a></dd></div>",
+      "<div class=\"row\"><dt>Runs on</dt><dd>Microsoft’s Azure cloud, plus OpenAI’s own “Stargate” sites. The first, in <b>Abilene, Texas</b>, has about 4 of 8 buildings running. Six more are being built in Texas, New Mexico, Wisconsin, Michigan and Ohio. <span class=\"chip ok\">sourced</span> <a class=\"src\" href=\"https://epoch.ai/blog/openai-stargate-where-the-us-sites-stand\" target=\"_blank\" rel=\"noopener\">Epoch AI, Apr 2026 ↗</a></dd></div>",
+      "<div class=\"row\"><dt>Europe</dt><dd>Stargate Norway in <b>Narvik</b>: hydropower, aiming for 100,000 Nvidia GPUs by the end of 2026. <span class=\"chip co\">company says</span> <a class=\"src\" href=\"https://openai.com/index/introducing-stargate-norway/\" target=\"_blank\" rel=\"noopener\">OpenAI, Jul 2025 ↗</a></dd></div>"
+     ]
+    ],
+    [
+     "What it’s made of",
+     [
+      "<p style=\"margin:0 0 4px\">Runs on Nvidia GPUs, made mostly by TSMC in Taiwan. These minerals go into them, and are mostly mined here (world share, 2025):</p><table class=\"mines\">\n    <tr><th><a href=\"https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-gallium.pdf\" target=\"_blank\" rel=\"noopener\">Gallium</a></th><td>China 99% (export controls since 2023)</td></tr>\n    <tr><th><a href=\"https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-copper.pdf\" target=\"_blank\" rel=\"noopener\">Copper</a></th><td>Chile 23% · DR Congo 14% · Peru 12%</td></tr>\n    <tr><th><a href=\"https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-tantalum.pdf\" target=\"_blank\" rel=\"noopener\">Tantalum</a></th><td>DR Congo 52% · Rwanda 16% · Nigeria 16%</td></tr>\n    <tr><th><a href=\"https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-tungsten.pdf\" target=\"_blank\" rel=\"noopener\">Tungsten</a></th><td>China 79%</td></tr>\n    <tr><th><a href=\"https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-tin.pdf\" target=\"_blank\" rel=\"noopener\">Tin</a></th><td>China 25% · Indonesia 21% · Peru 11%</td></tr>\n    <tr><th><a href=\"https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-rare-earths.pdf\" target=\"_blank\" rel=\"noopener\">Rare earths</a></th><td>China 69% · USA 13%</td></tr>\n  </table><span class=\"chip ok\">sourced</span> <a class=\"src\" href=\"https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-gallium.pdf\" target=\"_blank\" rel=\"noopener\">US Geological Survey, Mineral Commodity Summaries 2026 ↗</a>"
+     ]
+    ],
+    [
+     "Who trains it",
+     [
+      "<div class=\"row\"><dt>Kenya</dt><dd>2021–22: OpenAI hired <b>Sama</b>, an outsourcing firm in Nairobi, to label violent and abusive text so ChatGPT could filter it. Workers took home <b>$1.32–2/hour</b>; OpenAI paid Sama $12.50/hour per worker. <span class=\"chip ok\">sourced</span> <a class=\"src\" href=\"https://time.com/6247678/openai-chatgpt-kenya-workers/\" target=\"_blank\" rel=\"noopener\">TIME, Jan 2023 ↗</a></dd></div>",
+      "<div class=\"row\"><dt>Philippines</dt><dd><b>Scale AI</b>’s Remotasks platform: at least 10,000 workers, often paid below the minimum wage, with delayed or cancelled payments. OpenAI was a client. <span class=\"chip ok\">sourced</span> <a class=\"src\" href=\"https://www.washingtonpost.com/world/2023/08/28/scale-ai-remotasks-philippines-artificial-intelligence/\" target=\"_blank\" rel=\"noopener\">Washington Post, Aug 2023 ↗</a></dd></div>",
+      "<div class=\"row\"><dt>Now</dt><dd>OpenAI phased out Scale AI in 2025 and moved more work to <b>Mercor</b>, which hires experts to train advanced models. <span class=\"chip ok\">sourced</span> <a class=\"src\" href=\"https://fortune.com/2025/06/19/openai-is-phasing-out-scale-ai-work-following-startups-meta-deal\" target=\"_blank\" rel=\"noopener\">Fortune, Jun 2025 ↗</a></dd></div>"
+     ]
+    ],
+    [
+     "Environment",
+     [
+      "<div class=\"row\"><dt>Gas</dt><dd>ChatGPT’s new data centres are mostly powered by <b>gas</b>. Abilene runs on on-site gas plants plus the grid; the Texas and New Mexico sites are planned with their own gas power stations. Only the Wisconsin site says most of its power will be renewable. <span class=\"chip ok\">sourced</span> <a class=\"src\" href=\"https://epoch.ai/blog/openai-stargate-where-the-us-sites-stand\" target=\"_blank\" rel=\"noopener\">Epoch AI, Apr 2026 ↗</a></dd></div>",
+      "<div class=\"row\"><dt>Water</dt><dd>In July 2022, while GPT-4 was being built there, Microsoft’s Iowa cluster used <b>43.5 million litres</b>, 6% of the local district’s water, taken from the <b>Raccoon and Des Moines rivers</b>. <span class=\"chip ok\">sourced</span> <a class=\"src\" href=\"https://www.dailyherald.com/20230909/business/artificial-intelligence-technology-behind-chatgpt-was-built-in-iowa-with-a-lot-of-water/\" target=\"_blank\" rel=\"noopener\">Associated Press, Sep 2023 ↗</a></dd></div>",
+      "<div class=\"row\"><dt>Per chat</dt><dd>OpenAI says one query uses <b>0.34 Wh</b> and <b>0.3 ml</b> of water <span class=\"chip co\">company says</span> <a class=\"src\" href=\"https://blog.samaltman.com/the-gentle-singularity\" target=\"_blank\" rel=\"noopener\">Sam Altman, “The Gentle Singularity”, Jun 2025 ↗</a>. Researchers estimate <b>10–50 ml</b> per response for the older GPT-3 <span class=\"chip est\">estimate</span> <a class=\"src\" href=\"https://arxiv.org/html/2304.03271v5\" target=\"_blank\" rel=\"noopener\">Li, Yang, Islam & Ren, “Making AI Less Thirsty” (UC Riverside / UT Arlington) ↗</a></dd></div>"
+     ]
+    ],
+    [
+     "Terms and conditions",
+     [
+      "<div class=\"row\"><dt>Training</dt><dd><b>What you type trains ChatGPT</b> unless you switch it off, on Free, Plus and Pro. Even if you opt out, a thumbs up or down sends that whole conversation for training. <span class=\"chip co\">company says</span> <a class=\"src\" href=\"https://help.openai.com/en/articles/5722486-how-your-data-is-used-to-improve-model-performance\" target=\"_blank\" rel=\"noopener\">OpenAI Help Center ↗</a></dd></div>",
+      "<div class=\"row\"><dt>Readers</dt><dd><b>People may read your chats.</b> In Sept 2026, 404 Media revealed hundreds of contractors reading real ChatGPT conversations to rate its answers. Some contained sensitive personal details. <span class=\"chip ok\">sourced</span> <a class=\"src\" href=\"https://404media.co/inside-project-lily-the-humans-reading-your-chatgpt-chats\" target=\"_blank\" rel=\"noopener\">404 Media, Sep 2026 ↗</a></dd></div>",
+      "<div class=\"row\"><dt>Ads</dt><dd><b>Your chats shape the ads you see.</b> Since 2026, Free and Go users get ads based on their conversations, starting in the US. OpenAI says it doesn’t sell your data to advertisers. <span class=\"chip ok\">sourced</span> <a class=\"src\" href=\"https://axios.com/2026/01/16/chatgpt-ai-openai-ads\" target=\"_blank\" rel=\"noopener\">Axios, Jan 2026 ↗</a></dd></div>",
+      "<div class=\"row\"><dt>Deleting</dt><dd><b>Deleted doesn’t always mean gone.</b> From mid-2025 to 26 Sept 2025, a court order made OpenAI keep chats users had deleted. Normally they’re erased within 30 days. <span class=\"chip co\">company says</span> <a class=\"src\" href=\"https://openai.com/index/response-to-nyt-data-demands/\" target=\"_blank\" rel=\"noopener\">OpenAI, Oct 2025 ↗</a></dd></div>",
+      "<div class=\"row\"><dt>You can</dt><dd>Switch off <b>Settings → Data controls → Improve the model for everyone</b>, turn off ad personalisation, and use <b>Temporary Chat</b> for anything sensitive.</dd></div>"
+     ]
+    ],
+    [
+     "Politics",
+     [
+      "<div class=\"row\"><dt>EU lobbying</dt><dd>OpenAI declares <b>€500,000–599,999</b> a year lobbying the EU (2025), mainly on the AI Act, with 76 meetings with senior Commission officials. <span class=\"chip ok\">sourced</span> <a class=\"src\" href=\"https://www.lobbyfacts.eu/datacard/openai-opco-llc?rid=672219746759-76\" target=\"_blank\" rel=\"noopener\">EU Transparency Register via LobbyFacts ↗</a></dd></div>"
+     ]
+    ]
+   ],
+   "xray": "<p><b>Dec 2023 to now:</b> The New York Times sued OpenAI and Microsoft for using millions of its articles to train ChatGPT without permission or payment. In March 2025 a judge let the main claims go ahead.</p><span class=\"chip ok\">sourced</span> <a class=\"src\" href=\"https://www.stlpr.org/npr/2025-03-26/judge-allows-new-york-times-copyright-case-against-openai-to-go-forward\" target=\"_blank\" rel=\"noopener\">NPR, Mar 2025 ↗</a>"
+  },
+  "gemini": {
+   "name": "Gemini",
+   "maker": "Google",
+   "meta": "Google · USA · free, or paid Google AI plans",
+   "secs": [
+    [
+     "Where it lives",
+     [
+      "<div class=\"row\"><dt>Runs on</dt><dd>Google’s own data centres. In Europe: <b>St. Ghislain</b> (Belgium), <b>Fredericia</b> (Denmark), <b>Hamina</b> (Finland), <b>Hanau</b> (Germany), <b>Dublin</b> (Ireland), <b>Eemshaven</b> and <b>Middenmeer</b> (Netherlands), <b>Waltham Cross</b> (UK). In Latin America: <b>Quilicura</b> (Chile) and <b>Canelones</b> (Uruguay). <span class=\"chip co\">company says</span> <a class=\"src\" href=\"https://datacenters.google/locations/\" target=\"_blank\" rel=\"noopener\">Google, data center locations ↗</a></dd></div>",
+      "<div class=\"row\"><dt>Chips</dt><dd>Trained and run on Google’s own <b>TPU</b> chips, co-designed with Broadcom and made mainly by <b>TSMC in Taiwan</b>. <span class=\"chip ok\">sourced</span> <a class=\"src\" href=\"https://www.nbclosangeles.com/news/business/money-report/how-google-makes-custom-chips-used-to-train-apple-ai-models-and-its-own-chatbot-gemini/3494623/\" target=\"_blank\" rel=\"noopener\">CNBC, Aug 2024 ↗</a></dd></div>"
+     ]
+    ],
+    [
+     "What it’s made of",
+     [
+      "<p style=\"margin:0 0 4px\">Runs on Google TPUs, made mostly by TSMC in Taiwan. These minerals go into them, and are mostly mined here (world share, 2025):</p><table class=\"mines\">\n    <tr><th><a href=\"https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-gallium.pdf\" target=\"_blank\" rel=\"noopener\">Gallium</a></th><td>China 99% (export controls since 2023)</td></tr>\n    <tr><th><a href=\"https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-copper.pdf\" target=\"_blank\" rel=\"noopener\">Copper</a></th><td>Chile 23% · DR Congo 14% · Peru 12%</td></tr>\n    <tr><th><a href=\"https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-tantalum.pdf\" target=\"_blank\" rel=\"noopener\">Tantalum</a></th><td>DR Congo 52% · Rwanda 16% · Nigeria 16%</td></tr>\n    <tr><th><a href=\"https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-tungsten.pdf\" target=\"_blank\" rel=\"noopener\">Tungsten</a></th><td>China 79%</td></tr>\n    <tr><th><a href=\"https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-tin.pdf\" target=\"_blank\" rel=\"noopener\">Tin</a></th><td>China 25% · Indonesia 21% · Peru 11%</td></tr>\n    <tr><th><a href=\"https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-rare-earths.pdf\" target=\"_blank\" rel=\"noopener\">Rare earths</a></th><td>China 69% · USA 13%</td></tr>\n  </table><span class=\"chip ok\">sourced</span> <a class=\"src\" href=\"https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-gallium.pdf\" target=\"_blank\" rel=\"noopener\">US Geological Survey, Mineral Commodity Summaries 2026 ↗</a>"
+     ]
+    ],
+    [
+     "Who trains it",
+     [
+      "<div class=\"row\"><dt>Raters</dt><dd>Thousands of contracted “raters” check and correct Gemini’s answers, describing tight deadlines, poor pay and little transparency. <span class=\"chip ok\">sourced</span> <a class=\"src\" href=\"https://www.theguardian.com/technology/2025/sep/11/google-gemini-ai-training-humans\" target=\"_blank\" rel=\"noopener\">The Guardian, Sep 2025 ↗</a></dd></div>",
+      "<div class=\"row\"><dt>GlobalLogic</dt><dd>In Sept 2025, more than <b>200</b> raters working through the contractor <b>GlobalLogic</b> were fired amid a fight over pay and conditions. Those hired through agencies earned <b>$18–22/hour</b> for the same work as colleagues on $28–32. <span class=\"chip ok\">sourced</span> <a class=\"src\" href=\"https://www.business-humanrights.org/es/últimas-noticias/usa-google-fires-over-200-ai-contractors-amid-concerns-over-precarity-and-wage-gaps/\" target=\"_blank\" rel=\"noopener\">Wired, Sep 2025 (via Business & Human Rights Resource Centre) ↗</a></dd></div>"
+     ]
+    ],
+    [
+     "Environment",
+     [
+      "<div class=\"row\"><dt>Water</dt><dd>Google’s water use rose <b>34% in 2025</b>, to 10.9 billion gallons (about <b>41 billion litres</b>), more than double 2021. Data centres drove most of the increase. <span class=\"chip ok\">sourced</span> <a class=\"src\" href=\"https://axios.com/2026/06/30/google-ai-boom-emissions-power-use\" target=\"_blank\" rel=\"noopener\">Axios, Jun 2026 ↗</a></dd></div>",
+      "<div class=\"row\"><dt>Emissions</dt><dd>Google’s emissions rose <b>18%</b> in 2025, its biggest annual increase, driven largely by making AI chips and servers. <span class=\"chip ok\">sourced</span> <a class=\"src\" href=\"https://axios.com/2026/06/30/google-ai-boom-emissions-power-use\" target=\"_blank\" rel=\"noopener\">Axios, Jun 2026 ↗</a></dd></div>",
+      "<div class=\"row\"><dt>Per prompt</dt><dd>Google says a median Gemini text prompt uses <b>0.24 Wh</b> and <b>0.26 ml</b> of water. It excludes images, video and long reasoning tasks. <span class=\"chip co\">company says</span> <a class=\"src\" href=\"https://www.technologyreview.com/2025/08/21/1122288/google.gemini.ai.energy/\" target=\"_blank\" rel=\"noopener\">MIT Technology Review, Aug 2025 ↗</a></dd></div>",
+      "<div class=\"row\"><dt>Uruguay</dt><dd>Google’s data centre plans in Uruguay drew protests during the 2023 drought, when Montevideo was running out of drinking water. <span class=\"chip ok\">sourced</span> <a class=\"src\" href=\"https://news.mongabay.com/2023/11/the-cloud-vs-drought-water-hog-data-centers-threaten-latin-america-critics-say/\" target=\"_blank\" rel=\"noopener\">Mongabay, Nov 2023 ↗</a></dd></div>"
+     ]
+    ],
+    [
+     "Terms and conditions",
+     [
+      "<div class=\"row\"><dt>Training</dt><dd><b>Your Gemini chats train Google’s AI</b> while “Keep Activity” is on. Chats are kept for <b>18 months</b> by default. <span class=\"chip co\">company says</span> <a class=\"src\" href=\"https://support.google.com/gemini/answer/13594961?hl=en\" target=\"_blank\" rel=\"noopener\">Google, Gemini Apps Privacy Hub ↗</a></dd></div>",
+      "<div class=\"row\"><dt>Readers</dt><dd><b>Human reviewers read a sample of chats</b>, including people at outside companies. Reviewed chats are kept for <b>up to 3 years</b>, even if you delete your activity. Google warns not to type anything you wouldn’t want a reviewer to see. <span class=\"chip co\">company says</span> <a class=\"src\" href=\"https://support.google.com/gemini/answer/13594961?hl=en\" target=\"_blank\" rel=\"noopener\">Google, Gemini Apps Privacy Hub ↗</a></dd></div>",
+      "<div class=\"row\"><dt>You can</dt><dd>Turn off <b>Keep Activity</b> at myactivity.google.com/product/gemini. Chats are then kept 72 hours and not used for training.</dd></div>"
+     ]
+    ],
+    [
+     "Politics",
+     [
+      "<div class=\"row\"><dt>EU lobbying</dt><dd>Google spends about <b>€4.5 million</b> a year lobbying the EU, and had 35 meetings with senior Commission officials in the first half of 2025. <span class=\"chip ok\">sourced</span> <a class=\"src\" href=\"https://corporateeurope.org/en/2025/10/big-tech-lobby-budgets-hit-record-levels\" target=\"_blank\" rel=\"noopener\">Corporate Europe Observatory & LobbyControl, Oct 2025 (EU Transparency Register data) ↗</a></dd></div>"
+     ]
+    ]
+   ],
+   "xray": "<p><b>Project Nimbus:</b> Google and Amazon hold a $1.2 billion cloud and AI contract with the Israeli government. In April 2024, Google fired 28 employees who protested against it.</p><span class=\"chip ok\">sourced</span> <a class=\"src\" href=\"https://www.nbcnews.com/news/us-news/google-fires-workers-protest-israel-contract-project-nimbus-rcna148333\" target=\"_blank\" rel=\"noopener\">NBC News, Apr 2024 ↗</a>"
+  },
+  "claude": {
+   "name": "Claude",
+   "maker": "Anthropic",
+   "meta": "Anthropic · USA · free, or paid plans",
+   "secs": [
+    [
+     "Where it lives",
+     [
+      "<div class=\"row\"><dt>Indiana</dt><dd>Amazon’s <b>Project Rainier</b> in <b>New Carlisle, Indiana</b>, built with Anthropic as its main user: 1,200 acres of former corn and soybean fields, drawing <b>2.2 gigawatts</b>, enough for about a million homes. <span class=\"chip ok\">sourced</span> <a class=\"src\" href=\"https://thenightly.com.au/business/the-new-york-times-at-amazons-biggest-data-centre-everything-is-supersized-for-ai-c-19309860\" target=\"_blank\" rel=\"noopener\">New York Times, Jun 2025 (Weise & Metz) ↗</a></dd></div>",
+      "<div class=\"row\"><dt>Google</dt><dd>Anthropic can also use up to <b>one million Google TPUs</b>, over a gigawatt of capacity by 2026. <span class=\"chip ok\">sourced</span> <a class=\"src\" href=\"https://siliconangle.com/2025/10/23/anthropic-strikes-multibillion-dollar-deal-google-access-million-tpus/\" target=\"_blank\" rel=\"noopener\">SiliconANGLE, Oct 2025 ↗</a></dd></div>",
+      "<div class=\"row\"><dt>Own sites</dt><dd>Anthropic is building its own data centres in <b>Texas</b> and <b>New York</b> with Fluidstack, coming online through 2026. <span class=\"chip co\">company says</span> <a class=\"src\" href=\"https://www.anthropic.com/news/anthropic-invests-50-billion-in-american-ai-infrastructure\" target=\"_blank\" rel=\"noopener\">Anthropic, Nov 2025 ↗</a></dd></div>"
+     ]
+    ],
+    [
+     "What it’s made of",
+     [
+      "<p style=\"margin:0 0 4px\">Runs on Amazon Trainium and Google TPU chips, made mostly by TSMC in Taiwan. These minerals go into them, and are mostly mined here (world share, 2025):</p><table class=\"mines\">\n    <tr><th><a href=\"https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-gallium.pdf\" target=\"_blank\" rel=\"noopener\">Gallium</a></th><td>China 99% (export controls since 2023)</td></tr>\n    <tr><th><a href=\"https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-copper.pdf\" target=\"_blank\" rel=\"noopener\">Copper</a></th><td>Chile 23% · DR Congo 14% · Peru 12%</td></tr>\n    <tr><th><a href=\"https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-tantalum.pdf\" target=\"_blank\" rel=\"noopener\">Tantalum</a></th><td>DR Congo 52% · Rwanda 16% · Nigeria 16%</td></tr>\n    <tr><th><a href=\"https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-tungsten.pdf\" target=\"_blank\" rel=\"noopener\">Tungsten</a></th><td>China 79%</td></tr>\n    <tr><th><a href=\"https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-tin.pdf\" target=\"_blank\" rel=\"noopener\">Tin</a></th><td>China 25% · Indonesia 21% · Peru 11%</td></tr>\n    <tr><th><a href=\"https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-rare-earths.pdf\" target=\"_blank\" rel=\"noopener\">Rare earths</a></th><td>China 69% · USA 13%</td></tr>\n  </table><span class=\"chip ok\">sourced</span> <a class=\"src\" href=\"https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-gallium.pdf\" target=\"_blank\" rel=\"noopener\">US Geological Survey, Mineral Commodity Summaries 2026 ↗</a>"
+     ]
+    ],
+    [
+     "Who trains it",
+     [
+      "<div class=\"row\"><dt>Surge AI</dt><dd>Anthropic used <b>Surge AI</b>, a data-labelling company, for the human feedback that shaped Claude’s answers. Pay rates aren’t public. <span class=\"chip co\">company says</span> <a class=\"src\" href=\"https://surgehq.ai/blog/anthropic-surge-ai-rlhf-platform-train-llm-assistant-human-feedback\" target=\"_blank\" rel=\"noopener\">Surge AI case study ↗</a></dd></div>",
+      "<div class=\"row\"><dt>Readers</dt><dd>Anthropic confirmed it uses human reviewers on chats from users who allow training. <span class=\"chip ok\">sourced</span> <a class=\"src\" href=\"https://404media.co/inside-project-lily-the-humans-reading-your-chatgpt-chats\" target=\"_blank\" rel=\"noopener\">404 Media, Sep 2026 ↗</a></dd></div>"
+     ]
+    ],
+    [
+     "Environment",
+     [
+      "<div class=\"row\"><dt>Disclosure</dt><dd>Anthropic doesn’t publish its own energy or water figures.</dd></div>",
+      "<div class=\"row\"><dt>Water</dt><dd>Near the Indiana site, state officials investigated whether construction water pumping caused neighbours’ wells to run dry. Amazon says the finished site uses cooling water only a few hours a day, April to September. <span class=\"chip ok\">sourced</span> <a class=\"src\" href=\"https://thenightly.com.au/business/the-new-york-times-at-amazons-biggest-data-centre-everything-is-supersized-for-ai-c-19309860\" target=\"_blank\" rel=\"noopener\">New York Times, Jun 2025 (Weise & Metz) ↗</a> <span class=\"chip co\">company says</span> <a class=\"src\" href=\"https://aboutamazon.com/news/aws/aws-project-rainier-ai-trainium-chips-compute-cluster/\" target=\"_blank\" rel=\"noopener\">Amazon, Jun 2025 ↗</a></dd></div>"
+     ]
+    ],
+    [
+     "Terms and conditions",
+     [
+      "<div class=\"row\"><dt>Training</dt><dd><b>Since Sept 2025, your chats train Claude</b> unless you opt out, on Free, Pro and Max. If you allow it, your data is kept for <b>5 years</b> instead of 30 days. <span class=\"chip ok\">sourced</span> <a class=\"src\" href=\"https://heise.de/-10625683\" target=\"_blank\" rel=\"noopener\">heise online, Aug 2025 ↗</a></dd></div>",
+      "<div class=\"row\"><dt>You can</dt><dd>Switch off model training in Claude’s privacy settings. Work, education and API accounts aren’t used for training.</dd></div>"
+     ]
+    ],
+    [
+     "Politics",
+     [
+      "<div class=\"row\"><dt>EU lobbying</dt><dd>Anthropic declares <b>€200,000–299,999</b> a year lobbying the EU (2024), mainly on the AI Act, with 22 meetings with senior Commission officials. <span class=\"chip ok\">sourced</span> <a class=\"src\" href=\"https://www.lobbyfacts.eu/datacard/anthropic-pbc?rid=511227350325-42&sid=218820\" target=\"_blank\" rel=\"noopener\">EU Transparency Register via LobbyFacts ↗</a></dd></div>"
+     ]
+    ]
+   ],
+   "xray": "<p><b>2026:</b> A judge approved a record <b>$1.5 billion</b> settlement after authors sued Anthropic for training Claude on pirated books: over 400,000 books, about $3,000 each.</p><span class=\"chip ok\">sourced</span> <a class=\"src\" href=\"https://www.jurist.org/news/2026/07/judge-approves-record-1-5-billion-settlement-involving-anthropic/\" target=\"_blank\" rel=\"noopener\">JURIST, Jul 2026 ↗</a>"
+  },
+  "copilot": {
+   "name": "Copilot",
+   "maker": "Microsoft",
+   "meta": "Microsoft · USA · free, or with Microsoft 365",
+   "secs": [
+    [
+     "Where it lives",
+     [
+      "<div class=\"row\"><dt>Wisconsin</dt><dd>Microsoft’s <b>Fairwater</b> AI data centre in <b>Mount Pleasant, Wisconsin</b>: 315 acres, hundreds of thousands of Nvidia GPUs. <span class=\"chip ok\">sourced</span> <a class=\"src\" href=\"https://convergedigest.com/microsoft-unveils-fairwater-ai-data-center-in-wisconsin/\" target=\"_blank\" rel=\"noopener\">Converge Digest, Sep 2025 ↗</a></dd></div>",
+      "<div class=\"row\"><dt>Spain</dt><dd>Microsoft plans <b>€6.69 billion</b> of data centres in <b>Aragón</b>, at Villamayor de Gállego near Zaragoza, over ten years. <span class=\"chip ok\">sourced</span> <a class=\"src\" href=\"https://datacenterdynamics.com/en/news/microsoft-to-invest-716bn-in-new-data-centers-in-aragon-spain\" target=\"_blank\" rel=\"noopener\">DatacenterDynamics, Jun 2024 ↗</a></dd></div>",
+      "<div class=\"row\"><dt>Models</dt><dd>Copilot runs largely on <b>OpenAI’s GPT models</b>, plus Microsoft’s own MAI models. <span class=\"chip ok\">sourced</span> <a class=\"src\" href=\"https://techcrunch.com/2026/07/09/openai-says-gpt-5-6-is-the-preferred-model-for-microsoft-copilot-amid-breakup-chatter\" target=\"_blank\" rel=\"noopener\">TechCrunch, Jul 2026 ↗</a> <button class=\"jump\" data-jump=\"chatgpt\">OpenAI card →</button></dd></div>"
+     ]
+    ],
+    [
+     "What it’s made of",
+     [
+      "<p style=\"margin:0 0 4px\">Runs on Nvidia GPUs, made mostly by TSMC in Taiwan. These minerals go into them, and are mostly mined here (world share, 2025):</p><table class=\"mines\">\n    <tr><th><a href=\"https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-gallium.pdf\" target=\"_blank\" rel=\"noopener\">Gallium</a></th><td>China 99% (export controls since 2023)</td></tr>\n    <tr><th><a href=\"https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-copper.pdf\" target=\"_blank\" rel=\"noopener\">Copper</a></th><td>Chile 23% · DR Congo 14% · Peru 12%</td></tr>\n    <tr><th><a href=\"https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-tantalum.pdf\" target=\"_blank\" rel=\"noopener\">Tantalum</a></th><td>DR Congo 52% · Rwanda 16% · Nigeria 16%</td></tr>\n    <tr><th><a href=\"https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-tungsten.pdf\" target=\"_blank\" rel=\"noopener\">Tungsten</a></th><td>China 79%</td></tr>\n    <tr><th><a href=\"https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-tin.pdf\" target=\"_blank\" rel=\"noopener\">Tin</a></th><td>China 25% · Indonesia 21% · Peru 11%</td></tr>\n    <tr><th><a href=\"https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-rare-earths.pdf\" target=\"_blank\" rel=\"noopener\">Rare earths</a></th><td>China 69% · USA 13%</td></tr>\n  </table><span class=\"chip ok\">sourced</span> <a class=\"src\" href=\"https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-gallium.pdf\" target=\"_blank\" rel=\"noopener\">US Geological Survey, Mineral Commodity Summaries 2026 ↗</a>"
+     ]
+    ],
+    [
+     "Who trains it",
+     [
+      "<div class=\"row\"><dt>OpenAI</dt><dd>Copilot’s main models come from OpenAI, so their training labour includes OpenAI’s chain in Kenya and the Philippines. <button class=\"jump\" data-jump=\"chatgpt\">See who trains them →</button></dd></div>"
+     ]
+    ],
+    [
+     "Environment",
+     [
+      "<div class=\"row\"><dt>Emissions</dt><dd>Microsoft’s emissions are up <b>23.4%</b> since 2020 and its energy use up <b>168%</b>, which it attributes to AI and cloud growth. <span class=\"chip co\">company says</span> <a class=\"src\" href=\"https://blogs.microsoft.com/on-the-issues/2025/05/29/environmental-sustainability-report/\" target=\"_blank\" rel=\"noopener\">Microsoft, 2025 Environmental Sustainability Report ↗</a></dd></div>",
+      "<div class=\"row\"><dt>Water</dt><dd>Microsoft’s Iowa cluster used 6% of a local water district’s supply in July 2022, while GPT-4 was being trained there. <span class=\"chip ok\">sourced</span> <a class=\"src\" href=\"https://www.dailyherald.com/20230909/business/artificial-intelligence-technology-behind-chatgpt-was-built-in-iowa-with-a-lot-of-water/\" target=\"_blank\" rel=\"noopener\">Associated Press, Sep 2023 ↗</a></dd></div>",
+      "<div class=\"row\"><dt>Cooling</dt><dd>Microsoft says its new data centre design uses <b>zero water</b> for cooling; Fairwater uses a closed loop. <span class=\"chip co\">company says</span> <a class=\"src\" href=\"https://blogs.microsoft.com/on-the-issues/2025/05/29/environmental-sustainability-report/\" target=\"_blank\" rel=\"noopener\">Microsoft, 2025 Environmental Sustainability Report ↗</a></dd></div>"
+     ]
+    ],
+    [
+     "Terms and conditions",
+     [
+      "<div class=\"row\"><dt>Training</dt><dd>Microsoft trains Copilot on signed-in consumers’ conversations, with an opt-out. <b>In the EU it doesn’t, “until further notice.”</b> <span class=\"chip co\">company says</span> <a class=\"src\" href=\"https://www.microsoft.com/en-us/microsoft-copilot/blog/2024/08/16/transparency-and-control-in-consumer-data-use/\" target=\"_blank\" rel=\"noopener\">Microsoft, Aug 2024 ↗</a></dd></div>"
+     ]
+    ],
+    [
+     "Politics",
+     [
+      "<div class=\"row\"><dt>EU lobbying</dt><dd>Microsoft spends about <b>€7 million</b> a year lobbying the EU, and had 36 meetings with senior Commission officials in the first half of 2025. <span class=\"chip ok\">sourced</span> <a class=\"src\" href=\"https://corporateeurope.org/en/2025/10/big-tech-lobby-budgets-hit-record-levels\" target=\"_blank\" rel=\"noopener\">Corporate Europe Observatory & LobbyControl, Oct 2025 (EU Transparency Register data) ↗</a></dd></div>"
+     ]
+    ]
+   ],
+   "xray": "<p><b>2025:</b> The Guardian revealed that Israel’s military intelligence Unit 8200 stored recordings of Palestinians’ phone calls on Microsoft’s Azure cloud. Microsoft cut off some of the unit’s services in September 2025.</p><span class=\"chip ok\">sourced</span> <a class=\"src\" href=\"https://techcrunch.com/2025/09/25/microsoft-cuts-cloud-services-to-israeli-military-unit-over-palestinian-surveillance\" target=\"_blank\" rel=\"noopener\">TechCrunch, Sep 2025 (on The Guardian’s investigation) ↗</a>"
+  },
+  "meta": {
+   "name": "Meta AI",
+   "maker": "Meta",
+   "meta": "Meta · USA · free in WhatsApp, Instagram, Facebook",
+   "secs": [
+    [
+     "Where it lives",
+     [
+      "<div class=\"row\"><dt>Louisiana</dt><dd><b>Hyperion</b>, Meta’s AI campus in <b>Richland Parish, Louisiana</b>: 3,650 acres, about 2,700 football fields. <span class=\"chip ok\">sourced</span> <a class=\"src\" href=\"https://thelensnola.org/2026/03/30/meta-triples-order-of-gas-fired-power-plants-for-its-ai-campus-in-louisiana/\" target=\"_blank\" rel=\"noopener\">The Lens, Mar 2026 ↗</a></dd></div>"
+     ]
+    ],
+    [
+     "What it’s made of",
+     [
+      "<p style=\"margin:0 0 4px\">Runs on Nvidia GPUs, made mostly by TSMC in Taiwan. These minerals go into them, and are mostly mined here (world share, 2025):</p><table class=\"mines\">\n    <tr><th><a href=\"https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-gallium.pdf\" target=\"_blank\" rel=\"noopener\">Gallium</a></th><td>China 99% (export controls since 2023)</td></tr>\n    <tr><th><a href=\"https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-copper.pdf\" target=\"_blank\" rel=\"noopener\">Copper</a></th><td>Chile 23% · DR Congo 14% · Peru 12%</td></tr>\n    <tr><th><a href=\"https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-tantalum.pdf\" target=\"_blank\" rel=\"noopener\">Tantalum</a></th><td>DR Congo 52% · Rwanda 16% · Nigeria 16%</td></tr>\n    <tr><th><a href=\"https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-tungsten.pdf\" target=\"_blank\" rel=\"noopener\">Tungsten</a></th><td>China 79%</td></tr>\n    <tr><th><a href=\"https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-tin.pdf\" target=\"_blank\" rel=\"noopener\">Tin</a></th><td>China 25% · Indonesia 21% · Peru 11%</td></tr>\n    <tr><th><a href=\"https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-rare-earths.pdf\" target=\"_blank\" rel=\"noopener\">Rare earths</a></th><td>China 69% · USA 13%</td></tr>\n  </table><span class=\"chip ok\">sourced</span> <a class=\"src\" href=\"https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-gallium.pdf\" target=\"_blank\" rel=\"noopener\">US Geological Survey, Mineral Commodity Summaries 2026 ↗</a>"
+     ]
+    ],
+    [
+     "Who trains it",
+     [
+      "<div class=\"row\"><dt>Scale AI</dt><dd>In 2025 Meta bought <b>49% of Scale AI</b>, the data-labelling company behind the Remotasks platform, for $14.3 billion. <span class=\"chip ok\">sourced</span> <a class=\"src\" href=\"https://siliconangle.com/2025/06/12/scale-ai-ceo-alexandr-wang-departs-join-meta-securing-multibillion-investment/\" target=\"_blank\" rel=\"noopener\">SiliconANGLE, Jun 2025 ↗</a> <button class=\"jump\" data-jump=\"chatgpt\">Scale AI’s workers →</button></dd></div>",
+      "<div class=\"row\"><dt>Contractors</dt><dd>Contractors hired through Alignerr and Scale AI’s Outlier said they could see users’ real names, phone numbers, emails and selfies in Meta AI chats. <span class=\"chip ok\">sourced</span> <a class=\"src\" href=\"https://www.fortune.com/2025/08/06/meta-contractors-facebook-users-sharing-private-information-with-ai-chatbots\" target=\"_blank\" rel=\"noopener\">Business Insider via Fortune, Aug 2025 ↗</a></dd></div>"
+     ]
+    ],
+    [
+     "Environment",
+     [
+      "<div class=\"row\"><dt>Gas</dt><dd>Hyperion will be powered by <b>10 new gas plants</b> (7.5 gigawatts), more than a 30% increase to Louisiana’s entire grid capacity. <span class=\"chip ok\">sourced</span> <a class=\"src\" href=\"https://thelensnola.org/2026/03/30/meta-triples-order-of-gas-fired-power-plants-for-its-ai-campus-in-louisiana/\" target=\"_blank\" rel=\"noopener\">The Lens, Mar 2026 ↗</a></dd></div>"
+     ]
+    ],
+    [
+     "Terms and conditions",
+     [
+      "<div class=\"row\"><dt>Your posts</dt><dd><b>Since 27 May 2025, your public Facebook and Instagram posts train Meta’s AI</b>, including older posts, unless you objected. Data already used can’t be removed. <span class=\"chip ok\">sourced</span> <a class=\"src\" href=\"https://datenschutz-hamburg.de/news/meta-starts-ai-training-with-personal-data\" target=\"_blank\" rel=\"noopener\">Hamburg Data Protection Authority, May 2025 ↗</a></dd></div>",
+      "<div class=\"row\"><dt>Your chats</dt><dd>Your conversations with Meta AI are used for training, with <b>no option to object</b>. <span class=\"chip ok\">sourced</span> <a class=\"src\" href=\"https://datenschutz-hamburg.de/news/meta-starts-ai-training-with-personal-data\" target=\"_blank\" rel=\"noopener\">Hamburg Data Protection Authority, May 2025 ↗</a></dd></div>",
+      "<div class=\"row\"><dt>Ads</dt><dd>Outside the EU, UK and South Korea, your Meta AI chats are used to target ads since Dec 2025, with no full opt-out. <span class=\"chip ok\">sourced</span> <a class=\"src\" href=\"https://www.tomsguide.com/ai/meta-will-start-using-your-ai-chats-to-target-ads-heres-what-that-means-and-why-critics-like-joseph-gordon-levitt-are-pushing-back\" target=\"_blank\" rel=\"noopener\">Tom’s Guide, Oct 2025 ↗</a></dd></div>",
+      "<div class=\"row\"><dt>You can</dt><dd>Object in the Facebook and Instagram privacy settings. Each account counts separately unless linked.</dd></div>"
+     ]
+    ],
+    [
+     "Politics",
+     [
+      "<div class=\"row\"><dt>EU lobbying</dt><dd>Meta is the EU’s biggest corporate lobbyist: about <b>€10 million</b> a year, with 27 meetings with senior Commission officials in the first half of 2025. <span class=\"chip ok\">sourced</span> <a class=\"src\" href=\"https://corporateeurope.org/en/2025/10/big-tech-lobby-budgets-hit-record-levels\" target=\"_blank\" rel=\"noopener\">Corporate Europe Observatory & LobbyControl, Oct 2025 (EU Transparency Register data) ↗</a></dd></div>"
+     ]
+    ]
+   ],
+   "xray": "<p><b>Brazil, Oct 2026:</b> Lula’s campaign accused Meta of limiting the reach of his posts to favour Flávio Bolsonaro, citing a network of 255 AI-run Instagram profiles attacking him. The electoral court ordered Meta to explain itself. Meta calls the claims “simply false”; the case is ongoing. <span class=\"chip ok\">sourced</span> <a class=\"src\" href=\"https://new.intellinews.com/articles/brazil-s-lula-accuses-meta-of-election-interference-before-runoff-475372\" target=\"_blank\" rel=\"noopener\">bne IntelliNews, Oct 2026 ↗</a> <span class=\"chip co\">company says</span> <a class=\"src\" href=\"https://www.tse.jus.br/comunicacao/noticias/2026/Outubro/tse-ouve-meta-sobre-aprimoramento-de-medidas-para-enfrentamento-da-desinformacao-na-reta-final-das-eleicoes\" target=\"_blank\" rel=\"noopener\">Brazil’s Superior Electoral Court (TSE), Oct 2026 ↗</a></p>"
+  },
+  "grok": {
+   "name": "Grok",
+   "maker": "xAI",
+   "meta": "xAI (now SpaceXAI) · USA · in X, free and paid",
+   "secs": [
+    [
+     "Where it lives",
+     [
+      "<div class=\"row\"><dt>Memphis</dt><dd><b>Colossus</b>, in South Memphis, Tennessee. xAI merged into SpaceX in Feb 2026. <span class=\"chip ok\">sourced</span> <a class=\"src\" href=\"https://www.datacenterdynamics.com/en/news/spacexai-to-restart-work-on-wastewater-treatment-facility-to-serve-memphis-data-centers-by-q1-2027/\" target=\"_blank\" rel=\"noopener\">DatacenterDynamics, Jun 2026 ↗</a></dd></div>"
+     ]
+    ],
+    [
+     "What it’s made of",
+     [
+      "<p style=\"margin:0 0 4px\">Runs on Nvidia GPUs, made mostly by TSMC in Taiwan. These minerals go into them, and are mostly mined here (world share, 2025):</p><table class=\"mines\">\n    <tr><th><a href=\"https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-gallium.pdf\" target=\"_blank\" rel=\"noopener\">Gallium</a></th><td>China 99% (export controls since 2023)</td></tr>\n    <tr><th><a href=\"https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-copper.pdf\" target=\"_blank\" rel=\"noopener\">Copper</a></th><td>Chile 23% · DR Congo 14% · Peru 12%</td></tr>\n    <tr><th><a href=\"https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-tantalum.pdf\" target=\"_blank\" rel=\"noopener\">Tantalum</a></th><td>DR Congo 52% · Rwanda 16% · Nigeria 16%</td></tr>\n    <tr><th><a href=\"https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-tungsten.pdf\" target=\"_blank\" rel=\"noopener\">Tungsten</a></th><td>China 79%</td></tr>\n    <tr><th><a href=\"https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-tin.pdf\" target=\"_blank\" rel=\"noopener\">Tin</a></th><td>China 25% · Indonesia 21% · Peru 11%</td></tr>\n    <tr><th><a href=\"https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-rare-earths.pdf\" target=\"_blank\" rel=\"noopener\">Rare earths</a></th><td>China 69% · USA 13%</td></tr>\n  </table><span class=\"chip ok\">sourced</span> <a class=\"src\" href=\"https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-gallium.pdf\" target=\"_blank\" rel=\"noopener\">US Geological Survey, Mineral Commodity Summaries 2026 ↗</a>"
+     ]
+    ],
+    [
+     "Who trains it",
+     [
+      "<div class=\"row\"><dt>AI tutors</dt><dd>In Sept 2025, xAI laid off <b>500</b> of its 1,500 data annotators overnight, shifting to specialist “AI tutors”. <span class=\"chip ok\">sourced</span> <a class=\"src\" href=\"https://techcrunch.com/2025/09/13/xai-reportedly-lays-off-500-workers-from-data-annotation-team\" target=\"_blank\" rel=\"noopener\">Business Insider via TechCrunch, Sep 2025 ↗</a></dd></div>"
+     ]
+    ],
+    [
+     "Environment",
+     [
+      "<div class=\"row\"><dt>Turbines</dt><dd>Colossus ran up to <b>35 gas turbines</b> without permits for over a year, residents’ groups say, in a neighbourhood already burdened by pollution. It later got a permit for 15. <span class=\"chip ok\">sourced</span> <a class=\"src\" href=\"https://tennesseelookout.com/2025/07/17/naacp-others-appeal-xai-turbine-permits-for-memphis-data-center/\" target=\"_blank\" rel=\"noopener\">Tennessee Lookout, Jul 2025 ↗</a></dd></div>",
+      "<div class=\"row\"><dt>Water</dt><dd>A promised plant to recycle wastewater for Colossus, instead of drawing on Memphis’s aquifer, stalled in April 2026. <span class=\"chip ok\">sourced</span> <a class=\"src\" href=\"https://www.datacenterdynamics.com/en/news/spacexai-to-restart-work-on-wastewater-treatment-facility-to-serve-memphis-data-centers-by-q1-2027/\" target=\"_blank\" rel=\"noopener\">DatacenterDynamics, Jun 2026 ↗</a></dd></div>"
+     ]
+    ],
+    [
+     "Terms and conditions",
+     [
+      "<div class=\"row\"><dt>Your posts</dt><dd>Ireland’s data regulator is investigating whether X used EU users’ public posts to train Grok without a legal basis. <span class=\"chip ok\">sourced</span> <a class=\"src\" href=\"https://dataprotection.ie/en/news-media/latest-news/data-protection-commission-announces-commencement-inquiry-x-internet-unlimited-company-xiuc\" target=\"_blank\" rel=\"noopener\">Irish Data Protection Commission, Apr 2025 ↗</a></dd></div>"
+     ]
+    ]
+   ],
+   "xray": "<p><b>Jan 2026:</b> Grok was used to digitally undress photos of real people, mostly women and in some cases children. The UK regulator Ofcom opened an investigation. In July 2025, Grok had also posted antisemitic messages praising Hitler.</p><span class=\"chip ok\">sourced</span> <a class=\"src\" href=\"https://www.theregister.com/2026/01/15/ofcom_grok_probe/\" target=\"_blank\" rel=\"noopener\">The Register, Jan 2026 ↗</a> <a class=\"src\" href=\"https://www.semafor.com/article/07/09/2025/elon-musks-xai-deletes-antisemitic-grok-posts\" target=\"_blank\" rel=\"noopener\">Semafor, Jul 2025 ↗</a>"
+  },
+  "deepseek": {
+   "name": "DeepSeek",
+   "maker": "DeepSeek",
+   "meta": "DeepSeek · China (Hangzhou) · free",
+   "secs": [
+    [
+     "Where it lives",
+     [
+      "<div class=\"row\"><dt>China</dt><dd>DeepSeek says it collects, processes and stores your data in the <b>People’s Republic of China</b>. <span class=\"chip co\">company says</span> <a class=\"src\" href=\"https://cdn.deepseek.com/policies/en-US/deepseek-privacy-policy.html\" target=\"_blank\" rel=\"noopener\">DeepSeek Privacy Policy ↗</a></dd></div>",
+      "<div class=\"row\"><dt>Chips</dt><dd>Trained on Nvidia chips, including the H800 made for China under US export rules. Its claimed $5.6 million training cost covers only the final training run. <span class=\"chip ok\">sourced</span> <a class=\"src\" href=\"https://www.csis.org/analysis/deepseek-deep-dive\" target=\"_blank\" rel=\"noopener\">CSIS (Gregory C. Allen), Apr 2025 ↗</a></dd></div>"
+     ]
+    ],
+    [
+     "What it’s made of",
+     [
+      "<p style=\"margin:0 0 4px\">Runs on Nvidia GPUs, made mostly by TSMC in Taiwan. These minerals go into them, and are mostly mined here (world share, 2025):</p><table class=\"mines\">\n    <tr><th><a href=\"https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-gallium.pdf\" target=\"_blank\" rel=\"noopener\">Gallium</a></th><td>China 99% (export controls since 2023)</td></tr>\n    <tr><th><a href=\"https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-copper.pdf\" target=\"_blank\" rel=\"noopener\">Copper</a></th><td>Chile 23% · DR Congo 14% · Peru 12%</td></tr>\n    <tr><th><a href=\"https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-tantalum.pdf\" target=\"_blank\" rel=\"noopener\">Tantalum</a></th><td>DR Congo 52% · Rwanda 16% · Nigeria 16%</td></tr>\n    <tr><th><a href=\"https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-tungsten.pdf\" target=\"_blank\" rel=\"noopener\">Tungsten</a></th><td>China 79%</td></tr>\n    <tr><th><a href=\"https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-tin.pdf\" target=\"_blank\" rel=\"noopener\">Tin</a></th><td>China 25% · Indonesia 21% · Peru 11%</td></tr>\n    <tr><th><a href=\"https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-rare-earths.pdf\" target=\"_blank\" rel=\"noopener\">Rare earths</a></th><td>China 69% · USA 13%</td></tr>\n  </table><span class=\"chip ok\">sourced</span> <a class=\"src\" href=\"https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-gallium.pdf\" target=\"_blank\" rel=\"noopener\">US Geological Survey, Mineral Commodity Summaries 2026 ↗</a>"
+     ]
+    ],
+    [
+     "Who trains it",
+     [
+      "<div class=\"row\"><dt>Not disclosed</dt><dd>DeepSeek doesn’t say who labels its data.</dd></div>",
+      "<div class=\"row\"><dt>Context</dt><dd>Chinese AI companies hire Kenyan annotators through middlemen for as little as <b>$5.42 for a 12-hour day</b>, with no contracts. Which companies isn’t known. <span class=\"chip ok\">sourced</span> <a class=\"src\" href=\"https://restofworld.org/2025/kenya-china-ai-workers/\" target=\"_blank\" rel=\"noopener\">Rest of World, Dec 2025 ↗</a></dd></div>"
+     ]
+    ],
+    [
+     "Environment",
+     [
+      "<div class=\"row\"><dt>Disclosure</dt><dd>DeepSeek publishes no energy or water figures.</dd></div>"
+     ]
+    ],
+    [
+     "Terms and conditions",
+     [
+      "<div class=\"row\"><dt>Training</dt><dd>Your prompts and uploads train DeepSeek’s models. To opt out you have to email the company. <span class=\"chip co\">company says</span> <a class=\"src\" href=\"https://cdn.deepseek.com/policies/en-US/deepseek-privacy-policy.html\" target=\"_blank\" rel=\"noopener\">DeepSeek Privacy Policy ↗</a></dd></div>",
+      "<div class=\"row\"><dt>Sharing</dt><dd>Your data can be shared with law enforcement and public authorities. <span class=\"chip co\">company says</span> <a class=\"src\" href=\"https://cdn.deepseek.com/policies/en-US/deepseek-privacy-policy.html\" target=\"_blank\" rel=\"noopener\">DeepSeek Privacy Policy ↗</a></dd></div>",
+      "<div class=\"row\"><dt>Italy</dt><dd>Italy’s data regulator blocked DeepSeek in Jan 2025; Belgium, Ireland and France also asked questions. <span class=\"chip ok\">sourced</span> <a class=\"src\" href=\"https://www.euronews.com/2025/01/31/deepseek-ai-blocked-by-italian-authorities-as-others-member-states-open-probes\" target=\"_blank\" rel=\"noopener\">Euronews, Jan 2025 ↗</a></dd></div>"
+     ]
+    ]
+   ],
+   "xray": "<p><b>Censorship:</b> In tests with 1,360 prompts on topics sensitive to China, such as Tiananmen Square and Taiwan, DeepSeek’s R1 refused to answer about <b>85%</b>.</p><span class=\"chip ok\">sourced</span> <a class=\"src\" href=\"https://techcrunch.com/2025/01/29/deepseeks-ai-avoids-answering-85-of-prompts-on-sensitive-topics-related-to-china\" target=\"_blank\" rel=\"noopener\">TechCrunch, Jan 2025 ↗</a>"
+  },
+  "mistral": {
+   "name": "Le Chat",
+   "maker": "Mistral AI",
+   "meta": "Mistral AI · France · free, or paid plans",
+   "secs": [
+    [
+     "Where it lives",
+     [
+      "<div class=\"row\"><dt>France</dt><dd>Mistral is building its own data centre <b>near Paris</b>, with 13,800 Nvidia chips, due to open in 2026. <span class=\"chip ok\">sourced</span> <a class=\"src\" href=\"https://qz.com/mistral-830-million-debt-ai-data-center\" target=\"_blank\" rel=\"noopener\">Quartz, Mar 2026 ↗</a></dd></div>",
+      "<div class=\"row\"><dt>Microsoft</dt><dd>Mistral’s models are also offered on Microsoft’s Azure cloud, under a 2024 partnership. <span class=\"chip ok\">sourced</span> <a class=\"src\" href=\"https://www.axios.com/2024/02/29/mistral-french-ai-startup-microsoft\" target=\"_blank\" rel=\"noopener\">Axios, Feb 2024 ↗</a></dd></div>"
+     ]
+    ],
+    [
+     "What it’s made of",
+     [
+      "<p style=\"margin:0 0 4px\">Runs on Nvidia GPUs, made mostly by TSMC in Taiwan. These minerals go into them, and are mostly mined here (world share, 2025):</p><table class=\"mines\">\n    <tr><th><a href=\"https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-gallium.pdf\" target=\"_blank\" rel=\"noopener\">Gallium</a></th><td>China 99% (export controls since 2023)</td></tr>\n    <tr><th><a href=\"https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-copper.pdf\" target=\"_blank\" rel=\"noopener\">Copper</a></th><td>Chile 23% · DR Congo 14% · Peru 12%</td></tr>\n    <tr><th><a href=\"https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-tantalum.pdf\" target=\"_blank\" rel=\"noopener\">Tantalum</a></th><td>DR Congo 52% · Rwanda 16% · Nigeria 16%</td></tr>\n    <tr><th><a href=\"https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-tungsten.pdf\" target=\"_blank\" rel=\"noopener\">Tungsten</a></th><td>China 79%</td></tr>\n    <tr><th><a href=\"https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-tin.pdf\" target=\"_blank\" rel=\"noopener\">Tin</a></th><td>China 25% · Indonesia 21% · Peru 11%</td></tr>\n    <tr><th><a href=\"https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-rare-earths.pdf\" target=\"_blank\" rel=\"noopener\">Rare earths</a></th><td>China 69% · USA 13%</td></tr>\n  </table><span class=\"chip ok\">sourced</span> <a class=\"src\" href=\"https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-gallium.pdf\" target=\"_blank\" rel=\"noopener\">US Geological Survey, Mineral Commodity Summaries 2026 ↗</a>"
+     ]
+    ],
+    [
+     "Who trains it",
+     [
+      "<div class=\"row\"><dt>Not disclosed</dt><dd>Mistral doesn’t say who labels its data.</dd></div>"
+     ]
+    ],
+    [
+     "Environment",
+     [
+      "<div class=\"row\"><dt>Model</dt><dd>Training Mistral Large 2 and 18 months of use: <b>20,400 tonnes of CO₂</b> and <b>281,000 m³ of water</b>, about 112 Olympic pools. <span class=\"chip co\">company says</span> <a class=\"src\" href=\"https://mistral.ai/news/our-contribution-to-a-global-environmental-standard-for-ai\" target=\"_blank\" rel=\"noopener\">Mistral AI with Carbone 4 & ADEME, Jul 2025 ↗</a> <span class=\"chip est\">pools: estimate</span></dd></div>",
+      "<div class=\"row\"><dt>Per chat</dt><dd>One 400-token answer: <b>1.14 g CO₂</b> and <b>45 ml</b> of water, over 100 times OpenAI’s claim for ChatGPT. It’s the first full life-cycle study by an AI company, reviewed by outside auditors. <span class=\"chip co\">company says</span> <a class=\"src\" href=\"https://mistral.ai/news/our-contribution-to-a-global-environmental-standard-for-ai\" target=\"_blank\" rel=\"noopener\">Mistral AI with Carbone 4 & ADEME, Jul 2025 ↗</a></dd></div>"
+     ]
+    ],
+    [
+     "Terms and conditions",
+     [
+      "<div class=\"row\"><dt>Training</dt><dd>Individual users’ chats are <b>used for training by default</b>; enterprise accounts are opted out. <span class=\"chip co\">company says</span> <a class=\"src\" href=\"https://help.mistral.ai/en/articles/455207-can-i-opt-out-of-my-input-or-output-data-being-used-for-training\" target=\"_blank\" rel=\"noopener\">Mistral Help Center ↗</a></dd></div>",
+      "<div class=\"row\"><dt>You can</dt><dd>Turn off <b>Settings → Data & account controls → Enable data sharing</b>.</dd></div>"
+     ]
+    ],
+    [
+     "Politics",
+     [
+      "<div class=\"row\"><dt>EU lobbying</dt><dd>Mistral declares <b>€300,000–399,999</b> a year lobbying the EU, mainly on the AI Act, with 35 meetings with senior Commission officials. <span class=\"chip ok\">sourced</span> <a class=\"src\" href=\"https://www.lobbyfacts.eu/datacard/mistral-ai?rid=539437350687-42\" target=\"_blank\" rel=\"noopener\">EU Transparency Register via LobbyFacts ↗</a></dd></div>"
+     ]
+    ]
+   ],
+   "xray": "<p><b>2023–24:</b> Mistral lobbied in Paris and Brussels while the AI Act was being negotiated, helping water down the rules for general-purpose AI. Weeks after the deal, it announced a partnership and investment from Microsoft.</p><span class=\"chip ok\">sourced</span> <a class=\"src\" href=\"https://www.axios.com/2024/02/29/mistral-french-ai-startup-microsoft\" target=\"_blank\" rel=\"noopener\">Axios, Feb 2024 ↗</a>"
+  },
+  "midjourney": {
+   "name": "Midjourney",
+   "maker": "Midjourney",
+   "meta": "Midjourney · USA · paid plans",
+   "secs": [
+    [
+     "Where it lives",
+     [
+      "<div class=\"row\"><dt>Google</dt><dd>Trained on <b>Google Cloud TPUs</b>; images are rendered on Nvidia GPUs in Google’s cloud. <span class=\"chip co\">company says</span> <a class=\"src\" href=\"https://www.googlecloudpresscorner.com/2023-03-14-Midjourney-Selects-Google-Cloud-to-Power-AI-Generated-Creative-Platform\" target=\"_blank\" rel=\"noopener\">Google Cloud, Mar 2023 ↗</a> <button class=\"jump\" data-jump=\"gemini\">Google’s data centres →</button></dd></div>"
+     ]
+    ],
+    [
+     "What it’s made of",
+     [
+      "<p style=\"margin:0 0 4px\">Runs on Google TPUs and Nvidia GPUs, made mostly by TSMC in Taiwan. These minerals go into them, and are mostly mined here (world share, 2025):</p><table class=\"mines\">\n    <tr><th><a href=\"https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-gallium.pdf\" target=\"_blank\" rel=\"noopener\">Gallium</a></th><td>China 99% (export controls since 2023)</td></tr>\n    <tr><th><a href=\"https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-copper.pdf\" target=\"_blank\" rel=\"noopener\">Copper</a></th><td>Chile 23% · DR Congo 14% · Peru 12%</td></tr>\n    <tr><th><a href=\"https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-tantalum.pdf\" target=\"_blank\" rel=\"noopener\">Tantalum</a></th><td>DR Congo 52% · Rwanda 16% · Nigeria 16%</td></tr>\n    <tr><th><a href=\"https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-tungsten.pdf\" target=\"_blank\" rel=\"noopener\">Tungsten</a></th><td>China 79%</td></tr>\n    <tr><th><a href=\"https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-tin.pdf\" target=\"_blank\" rel=\"noopener\">Tin</a></th><td>China 25% · Indonesia 21% · Peru 11%</td></tr>\n    <tr><th><a href=\"https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-rare-earths.pdf\" target=\"_blank\" rel=\"noopener\">Rare earths</a></th><td>China 69% · USA 13%</td></tr>\n  </table><span class=\"chip ok\">sourced</span> <a class=\"src\" href=\"https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-gallium.pdf\" target=\"_blank\" rel=\"noopener\">US Geological Survey, Mineral Commodity Summaries 2026 ↗</a>"
+     ]
+    ],
+    [
+     "Who trains it",
+     [
+      "<div class=\"row\"><dt>Not disclosed</dt><dd>Midjourney doesn’t say who labels its data.</dd></div>"
+     ]
+    ],
+    [
+     "Environment",
+     [
+      "<div class=\"row\"><dt>Disclosure</dt><dd>Midjourney publishes no energy or water figures. It runs on Google’s cloud. <button class=\"jump\" data-jump=\"gemini\">Google’s footprint →</button></dd></div>"
+     ]
+    ],
+    [
+     "Terms and conditions",
+     [
+      "<div class=\"row\"><dt>Public</dt><dd><b>Your images and prompts are public by default</b>, and other users can remix them. Hiding them (Stealth mode) needs the Pro or Mega plan. <span class=\"chip co\">company says</span> <a class=\"src\" href=\"https://docs.midjourney.com/docs/terms-of-service\" target=\"_blank\" rel=\"noopener\">Midjourney Terms of Service ↗</a></dd></div>",
+      "<div class=\"row\"><dt>Licence</dt><dd>You give Midjourney a <b>perpetual, irrevocable</b> licence to everything you type and make, which continues if you leave. <span class=\"chip co\">company says</span> <a class=\"src\" href=\"https://docs.midjourney.com/docs/terms-of-service\" target=\"_blank\" rel=\"noopener\">Midjourney Terms of Service ↗</a></dd></div>"
+     ]
+    ]
+   ],
+   "xray": "<p><b>June 2025:</b> Disney and Universal sued Midjourney, calling it “a bottomless pit of plagiarism” for generating copies of characters like Darth Vader and the Minions.</p><span class=\"chip ok\">sourced</span> <a class=\"src\" href=\"https://virginiabusiness.com/disney-universal-sue-midjourney-ai-copyright/\" target=\"_blank\" rel=\"noopener\">Associated Press, Jun 2025 ↗</a>"
+  },
+  "perplexity": {
+   "type": "wrapper",
+   "name": "Perplexity",
+   "maker": "Perplexity",
+   "meta": "Perplexity · USA · free, or paid plans",
+   "intro": "Perplexity builds its search engine on other companies’ models and cloud:",
+   "groups": [
+    [
+     "USA",
+     [
+      [
+       "Amazon",
+       "Hosting on AWS"
+      ],
+      [
+       "Anthropic",
+       "Claude, via Amazon",
+       "claude"
+      ]
+     ]
+    ],
+    [
+     "Europe",
+     [
+      [
+       "Mistral AI",
+       "Its own Sonar models were fine-tuned from Mistral’s · France",
+       "mistral"
+      ]
+     ]
+    ]
+   ],
+   "note": "From Amazon’s 2024 case study <a class=\"src\" href=\"https://aws.amazon.com/solutions/case-studies/perplexity-bedrock-case-study\" target=\"_blank\" rel=\"noopener\">Amazon Web Services case study ↗</a>. Pro users can also pick other companies’ models.",
+   "extra": [
+    [
+     "Terms and conditions",
+     [
+      "<div class=\"row\"><dt>Training</dt><dd><b>Your searches train Perplexity’s models</b> by default, on Free, Pro and Max. Data already collected can’t be removed. <span class=\"chip co\">company says</span> <a class=\"src\" href=\"https://intercom.help/perplexity-ai/en/articles/11564572-data-collection-at-perplexity\" target=\"_blank\" rel=\"noopener\">Perplexity Help Center ↗</a></dd></div>",
+      "<div class=\"row\"><dt>You can</dt><dd>Turn off <b>Account settings → Preferences → AI data retention</b>.</dd></div>"
+     ]
+    ]
+   ],
+   "why": "<p><b>Aug 2025:</b> Cloudflare said Perplexity used hidden crawlers disguised as normal browsers to scrape websites that had blocked it: millions of requests a day across tens of thousands of sites. Perplexity called the report a “sales pitch”.</p><span class=\"chip ok\">sourced</span> <a class=\"src\" href=\"https://www.techrepublic.com/article/news-cloudflare-accuses-perplexity-stealth-crawling-violations/\" target=\"_blank\" rel=\"noopener\">TechRepublic, Aug 2025 (on Cloudflare’s report) ↗</a>"
+  },
+  "weave": {
+   "type": "wrapper",
+   "name": "Figma Weave",
+   "maker": "Figma",
+   "meta": "Figma · USA · formerly Weavy, bought by Figma in 2025 <a class=\"src\" href=\"https://www.figma.com/blog/welcome-weavy-to-figma/\" target=\"_blank\" rel=\"noopener\">Figma, 2025 ↗</a>",
+   "intro": "Figma Weave has no AI model of its own. It sends your work to these companies’ models:",
+   "groups": [
+    [
+     "USA",
+     [
+      [
+       "Google",
+       "Veo 3.1, Nano Banana",
+       "gemini"
+      ],
+      [
+       "OpenAI",
+       "GPT Image 1.5",
+       "chatgpt"
+      ],
+      [
+       "xAI",
+       "Grok Imagine",
+       "grok"
+      ],
+      [
+       "Runway",
+       "Gen-4.5"
+      ],
+      [
+       "Luma AI",
+       "Ray 2"
+      ]
+     ]
+    ],
+    [
+     "China",
+     [
+      [
+       "ByteDance",
+       "Seedream, Seedance"
+      ],
+      [
+       "Alibaba",
+       "Wan, Qwen"
+      ],
+      [
+       "Kuaishou",
+       "Kling"
+      ],
+      [
+       "Tencent",
+       "Hunyuan 3D"
+      ]
+     ]
+    ],
+    [
+     "Europe",
+     [
+      [
+       "Black Forest Labs",
+       "Flux · Germany"
+      ],
+      [
+       "Freepik",
+       "Mystic · Spain"
+      ]
+     ]
+    ],
+    [
+     "Israel",
+     [
+      [
+       "Lightricks",
+       "LTX 2"
+      ]
+     ]
+    ]
+   ],
+   "note": "Model list from Figma’s own page <a class=\"src\" href=\"https://weave.figma.com/pricing\" target=\"_blank\" rel=\"noopener\">Figma Weave pricing page ↗</a>. Makers grouped by headquarters <span class=\"chip est\">estimate</span>",
+   "why": "<p>The brand you see isn’t the company doing the work. One session in Figma Weave can send your prompts and images to <b>11 companies in 4 countries</b>, each with its own data centres, water use and labour chain.</p>"
+  }
+ },
+ "aliases": [
+  {
+   "id": "chatgpt",
+   "re": "\\bChatGPT\\b",
+   "flags": "",
+   "ambiguous": false
+  },
+  {
+   "id": "chatgpt",
+   "re": "\\bGPT-\\d+(?:\\.\\d+)?(?:o|-mini|-nano|-turbo|-pro)?\\b",
+   "flags": "",
+   "ambiguous": false
+  },
+  {
+   "id": "chatgpt",
+   "re": "\\bOpenAI\\b",
+   "flags": "",
+   "ambiguous": false
+  },
+  {
+   "id": "chatgpt",
+   "re": "\\bDALL[·\\-]?E(?: \\d)?\\b",
+   "flags": "",
+   "ambiguous": false
+  },
+  {
+   "id": "chatgpt",
+   "re": "\\bSora \\d\\b",
+   "flags": "",
+   "ambiguous": false
+  },
+  {
+   "id": "claude",
+   "re": "\\bAnthropic\\b",
+   "flags": "",
+   "ambiguous": false
+  },
+  {
+   "id": "claude",
+   "re": "\\bClaude (?:Opus|Sonnet|Haiku|Fable|Mythos|Code|AI)(?: \\d+(?:\\.\\d+)?)?\\b",
+   "flags": "",
+   "ambiguous": false
+  },
+  {
+   "id": "claude",
+   "re": "\\b(?:Opus|Sonnet|Haiku|Fable|Mythos) \\d+(?:\\.\\d+)?\\b",
+   "flags": "",
+   "ambiguous": false
+  },
+  {
+   "id": "claude",
+   "re": "\\bClaude\\b",
+   "flags": "",
+   "ambiguous": true
+  },
+  {
+   "id": "gemini",
+   "re": "\\bGemini \\d+(?:\\.\\d+)?(?: (?:Pro|Flash|Ultra|Nano))?\\b",
+   "flags": "",
+   "ambiguous": false
+  },
+  {
+   "id": "gemini",
+   "re": "\\bGoogle Gemini\\b",
+   "flags": "",
+   "ambiguous": false
+  },
+  {
+   "id": "gemini",
+   "re": "\\bNano Banana(?: Pro)?\\b",
+   "flags": "",
+   "ambiguous": false
+  },
+  {
+   "id": "gemini",
+   "re": "\\bVeo \\d(?:\\.\\d)?\\b",
+   "flags": "",
+   "ambiguous": false
+  },
+  {
+   "id": "gemini",
+   "re": "\\bGemini\\b",
+   "flags": "",
+   "ambiguous": true
+  },
+  {
+   "id": "copilot",
+   "re": "\\b(?:Microsoft|GitHub) Copilot\\b",
+   "flags": "",
+   "ambiguous": false
+  },
+  {
+   "id": "copilot",
+   "re": "\\bCopilot\\b",
+   "flags": "",
+   "ambiguous": true
+  },
+  {
+   "id": "meta",
+   "re": "\\bMeta AI\\b",
+   "flags": "",
+   "ambiguous": false
+  },
+  {
+   "id": "meta",
+   "re": "\\bLlama \\d+(?:\\.\\d+)?\\b",
+   "flags": "",
+   "ambiguous": false
+  },
+  {
+   "id": "grok",
+   "re": "\\bGrok(?: \\d+(?:\\.\\d+)?)?\\b",
+   "flags": "",
+   "ambiguous": false
+  },
+  {
+   "id": "grok",
+   "re": "\\bxAI\\b",
+   "flags": "",
+   "ambiguous": false
+  },
+  {
+   "id": "deepseek",
+   "re": "\\bDeepSeek(?:[- ](?:R\\d|V\\d(?:\\.\\d)?))?\\b",
+   "flags": "",
+   "ambiguous": false
+  },
+  {
+   "id": "perplexity",
+   "re": "\\bPerplexity AI\\b",
+   "flags": "",
+   "ambiguous": false
+  },
+  {
+   "id": "perplexity",
+   "re": "\\bPerplexity\\b",
+   "flags": "",
+   "ambiguous": true
+  },
+  {
+   "id": "mistral",
+   "re": "\\bMistral AI\\b",
+   "flags": "",
+   "ambiguous": false
+  },
+  {
+   "id": "mistral",
+   "re": "\\bMistral (?:Large|Medium|Small)(?: \\d+(?:\\.\\d+)?)?\\b",
+   "flags": "",
+   "ambiguous": false
+  },
+  {
+   "id": "mistral",
+   "re": "\\bCodestral\\b",
+   "flags": "",
+   "ambiguous": false
+  },
+  {
+   "id": "mistral",
+   "re": "\\bLe Chat\\b",
+   "flags": "",
+   "ambiguous": true
+  },
+  {
+   "id": "mistral",
+   "re": "\\bMistral\\b",
+   "flags": "",
+   "ambiguous": true
+  },
+  {
+   "id": "midjourney",
+   "re": "\\bMidjourney(?: V?\\d+)?\\b",
+   "flags": "",
+   "ambiguous": false
+  },
+  {
+   "id": "weave",
+   "re": "\\bFigma Weave\\b",
+   "flags": "",
+   "ambiguous": false
+  },
+  {
+   "id": "weave",
+   "re": "\\bWeavy\\b",
+   "flags": "",
+   "ambiguous": false
+  }
+ ],
+ "aiContext": {
+  "re": "\\b(?:AI|A\\.I\\.|IA|LLMs?|chatbots?|artificial intelligence|inteligencia artificial|intel·ligència artificial|intelligence artificielle|OpenAI|ChatGPT|Anthropic|DeepSeek|Midjourney|GPT-\\d)\\b",
+  "flags": ""
+ }
+}

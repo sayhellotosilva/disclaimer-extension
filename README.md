@@ -3,7 +3,7 @@
 <p align="center"><b>The disclaimer AI companies don’t write.</b><br>
 A Chrome extension that marks AI tools on any web page and shows what’s behind them.</p>
 
-<p align="center"><a href="https://github.com/sayhellotosilva/disclaimer-extension/releases/latest/download/disclaimer-extension.zip"><b>Download</b></a> · <a href="https://sayhellotosilva.github.io/disclaimer-extension/">Website</a> · <a href="#español">Español</a></p>
+<p align="center"><a href="https://sayhellotosilva.github.io/disclaimer-extension/download/disclaimer-extension.zip"><b>Download</b></a> · <a href="https://sayhellotosilva.github.io/disclaimer-extension/">Website</a> · <a href="#español">Español</a></p>
 
 <p align="center"><img src="docs/assets/demo.gif" alt="disclaimer marking AI tools in a social media post and opening a card" width="720"></p>
 
@@ -27,7 +27,7 @@ Model names lead to their maker: “Opus 5.5” opens Claude, “GPT-5” opens 
 
 ## Install (2 minutes)
 
-1. [Download the zip](https://github.com/sayhellotosilva/disclaimer-extension/releases/latest/download/disclaimer-extension.zip) and unzip it.
+1. [Download the zip](https://sayhellotosilva.github.io/disclaimer-extension/download/disclaimer-extension.zip) and unzip it.
 2. In Chrome, go to `chrome://extensions`.
 3. Turn on **Developer mode** (top right).
 4. Click **Load unpacked** and choose the unzipped `disclaimer-extension` folder.
@@ -80,7 +80,7 @@ Code: [MIT](LICENSE). Research texts and data: [CC BY 4.0](LICENSE-DATA.md).
 
 ### Instalación
 
-1. [Descarga el zip](https://github.com/sayhellotosilva/disclaimer-extension/releases/latest/download/disclaimer-extension.zip) y descomprímelo.
+1. [Descarga el zip](https://sayhellotosilva.github.io/disclaimer-extension/download/disclaimer-extension.zip) y descomprímelo.
 2. En Chrome, ve a `chrome://extensions`.
 3. Activa el **Modo de desarrollador** (arriba a la derecha).
 4. Haz clic en **Cargar extensión sin empaquetar** y elige la carpeta `disclaimer-extension`.

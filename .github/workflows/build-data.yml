@@ -1,11 +1,12 @@
-# Every time extension/data.js changes on GitHub, rebuild the online card data.
+# Every time the extension changes on GitHub, rebuild the online card data
+# and the download zip.
 # The extension downloads docs/data/cards.json (served by GitHub Pages),
 # so corrections reach everyone without reinstalling.
-name: Build card data
+name: Build card data and download
 on:
   push:
     branches: [main]
-    paths: ["extension/data.js", "scripts/build-data.mjs"]
+    paths: ["extension/**", "scripts/build-data.mjs"]
   workflow_dispatch:
 permissions:
   contents: write
@@ -17,10 +18,12 @@ jobs:
       - uses: actions/setup-node@v4
         with: { node-version: 20 }
       - run: node scripts/build-data.mjs
+      - name: Rebuild the download zip
+        run: rm -f docs/download/disclaimer-extension.zip && mkdir -p docs/download && zip -rq -X docs/download/disclaimer-extension.zip extension
       - name: Commit the new card data
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
-          git add docs/data/cards.json
-          git diff --cached --quiet || git commit -m "Update online card data"
+          git add docs/data/cards.json docs/download/disclaimer-extension.zip
+          git diff --cached --quiet || git commit -m "Update online card data and download"
           git push

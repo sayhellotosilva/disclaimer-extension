@@ -35,10 +35,18 @@ a{color:inherit}
 .wm .i{position:relative}
 .wm .i::before{content:"*";position:absolute;left:50%;top:-.6em;transform:translateX(-50%);color:var(--accent);font-weight:700;font-size:1.1em}
 
-header{padding-block:12px 8px}
-.lede{font-size:clamp(20px,3.2vw,26px);line-height:1.35;margin:18px 0 6px;max-width:34ch;text-wrap:balance;font-weight:500}
-.sub{color:var(--muted);margin:0 0 24px;max-width:56ch}
-.ctas{display:flex;flex-wrap:wrap;gap:10px;align-items:center}
+header.hero{padding-block:0 8px}
+.topbar{display:flex;justify-content:space-between;gap:16px;font:12px var(--mono);color:var(--muted);padding-bottom:12px;border-bottom:1px solid var(--rule)}
+.topbar a{text-decoration:none}
+.topbar a:hover{color:var(--accent-ink)}
+.hero .wm{font-size:clamp(52px,14.5vw,124px);margin-top:clamp(20px,4vw,36px)}
+.hero-grid{display:grid;grid-template-columns:minmax(0,1.25fr) minmax(0,1fr);gap:24px 40px;align-items:start;margin-top:20px;padding-top:20px;border-top:1px solid var(--ink)}
+.lead{font-size:clamp(22px,3.4vw,28px);line-height:1.25;font-weight:500;letter-spacing:-.01em;margin:0;text-wrap:balance}
+.ctas{display:grid;gap:10px}
+.ctas .btn{justify-content:center}
+.facts{list-style:none;margin:14px 0 0;padding:0;font:12px/1.5 var(--mono);color:var(--muted);display:grid;gap:2px}
+.facts li::before{content:"* ";color:var(--accent)}
+@media (max-width:620px){.hero-grid{grid-template-columns:1fr}}
 .btn{display:inline-flex;align-items:center;gap:8px;padding:12px 18px;border-radius:999px;text-decoration:none;font-weight:600;font-size:15px}
 .btn.primary{background:var(--accent);color:#fff}
 .btn.primary:hover{filter:brightness(1.06)}
@@ -88,14 +96,19 @@ footer{margin-top:64px;padding-top:20px;border-top:1px solid var(--rule);font:12
 </head>
 <body>
 <div class="wrap">
-  <header>
+  <header class="hero">
+    <div class="topbar"><span>Chrome extension · v1.1</span><a href="https://github.com/sayhellotosilva/disclaimer-extension">GitHub ↗</a></div>
     <span class="wm" role="img" aria-label="disclaimer">discl<span class="ai">a<span class="i">ı</span></span>mer</span>
-    <p class="sub">A free Chrome extension that marks AI tools on any web page and shows what’s behind them.</p>
-    <div class="ctas">
-      <a class="btn primary" href="https://sayhellotosilva.github.io/disclaimer-extension/download/disclaimer-extension.zip">Download for Chrome</a>
-      <a class="btn ghost" href="https://github.com/sayhellotosilva/disclaimer-extension">Code &amp; sources on GitHub</a>
+    <div class="hero-grid">
+      <p class="lead">Marks AI tools on any web page and shows what’s behind them.</p>
+      <div class="hero-side">
+        <div class="ctas">
+          <a class="btn primary" href="https://sayhellotosilva.github.io/disclaimer-extension/download/disclaimer-extension.zip">Download for Chrome</a>
+          <a class="btn ghost" href="https://github.com/sayhellotosilva/disclaimer-extension">Code &amp; sources</a>
+        </div>
+        <ul class="facts"><li>Free and open source</li><li>Sends nothing about you</li><li>Updates itself</li><li>Chrome, Edge, Brave, Arc</li></ul>
+      </div>
     </div>
-    <p class="meta" style="margin-top:12px">v1.1 · free and open source · sends nothing about you · updates itself · Chrome, Edge, Brave, Arc</p>
   </header>
 
   <figure class="demo" style="margin-inline:0"><video src="assets/demo.mp4" poster="assets/demo-poster.jpg" width="1600" height="1046" autoplay muted loop playsinline controls preload="metadata" aria-label="disclaimer on LinkedIn: hovering Claude opens a glass card with sections on data centres, minerals, workers, environment, terms and politics, and the disclaimer at the bottom."></video></figure>

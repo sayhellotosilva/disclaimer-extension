@@ -11,7 +11,7 @@
 
 <p align="center"><a href="https://sayhellotosilva.github.io/disclaimer-extension/download/disclaimer-extension.zip"><b>Download for Chrome</b></a> · <a href="https://sayhellotosilva.github.io/disclaimer-extension/">Website</a> · <a href="#español">Español</a></p>
 
-<p align="center"><a href="https://sayhellotosilva.github.io/disclaimer-extension/"><img src="docs/assets/demo.gif" alt="disclaimer on LinkedIn: hovering Claude opens a card with sections on data centres, minerals, workers, environment, terms and politics" width="760"></a><br>
+<p align="center"><a href="https://sayhellotosilva.github.io/disclaimer-extension/"><img src="docs/assets/demo-readme.gif" alt="disclaimer on LinkedIn: hovering Claude opens a card with sections on data centres, minerals, workers, environment, terms and politics" width="760"></a><br>
 <sub>disclaimer on a social media post. Every name with an asterisk opens a card.</sub></p>
 
 ## Why

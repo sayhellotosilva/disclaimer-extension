@@ -320,7 +320,8 @@ const DATA = {
   runway:   stub("Runway","Runway","USA","Gen-4.5 and other video models"),
   luma:     stub("Luma AI","Luma AI","USA","Ray and Dream Machine (video)"),
   flux:     stub("Flux","Black Forest Labs","Germany","Flux (image)"),
-  ltx:      stub("LTX","Lightricks","Israel","LTX (video)")
+  ltx:      stub("LTX","Lightricks","Israel","LTX (video)"),
+  higgsfield: stub("Higgsfield","Higgsfield AI","USA","Video and image tools built on other companies’ models")
 };
 
 
@@ -374,7 +375,8 @@ const ALIASES = [
   {id:"flux",      re:/\bFLUX\.\d(?: \[?(?:pro|dev|schnell|Kontext)\]?)?/i},
   {id:"flux",      re:/\bFlux (?:Kontext|Pro|Dev|Schnell|\d(?:\.\d)?)\b/},
   {id:"ltx",       re:/\bLTX[- ](?:Video|2)\b/},
-  {id:"ltx",       re:/\bLightricks\b/}
+  {id:"ltx",       re:/\bLightricks\b/},
+  {id:"higgsfield",re:/\bHiggsfield(?: AI)?\b/}
 ];
 
 /* Words that show a page is about AI (needed before ambiguous names are marked). */

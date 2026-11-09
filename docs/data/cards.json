@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "updated": "2026-11-08",
+ "updated": "2026-11-09",
  "cards": {
   "chatgpt": {
    "name": "ChatGPT",
@@ -672,6 +672,21 @@
     ]
    ],
    "xray": "<p>This card hasn’t been researched yet. It only says who makes LTX: every other section needs checked sources first.</p><p><a class=\"src\" href=\"https://github.com/sayhellotosilva/disclaimer-extension/issues/new?title=Sources%20for%20LTX\" target=\"_blank\" rel=\"noopener\">Suggest a source ↗</a></p>"
+  },
+  "higgsfield": {
+   "name": "Higgsfield",
+   "maker": "Higgsfield AI",
+   "meta": "Higgsfield AI · USA",
+   "secs": [
+    [
+     "Who makes it",
+     [
+      "<div class=\"row\"><dt>Company</dt><dd>Higgsfield AI, headquartered in USA</dd></div>",
+      "<div class=\"row\"><dt>Models</dt><dd>Video and image tools built on other companies’ models</dd></div>"
+     ]
+    ]
+   ],
+   "xray": "<p>This card hasn’t been researched yet. It only says who makes Higgsfield: every other section needs checked sources first.</p><p><a class=\"src\" href=\"https://github.com/sayhellotosilva/disclaimer-extension/issues/new?title=Sources%20for%20Higgsfield\" target=\"_blank\" rel=\"noopener\">Suggest a source ↗</a></p>"
   }
  },
  "aliases": [
@@ -948,6 +963,12 @@
   {
    "id": "ltx",
    "re": "\\bLightricks\\b",
+   "flags": "",
+   "ambiguous": false
+  },
+  {
+   "id": "higgsfield",
+   "re": "\\bHiggsfield(?: AI)?\\b",
    "flags": "",
    "ambiguous": false
   }

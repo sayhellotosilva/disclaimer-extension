@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "updated": "2026-11-09",
+ "updated": "2026-11-10",
  "cards": {
   "chatgpt": {
    "name": "ChatGPT",
@@ -553,36 +553,6 @@
    "note": "Model list from Figma’s own page <a class=\"src\" href=\"https://weave.figma.com/pricing\" target=\"_blank\" rel=\"noopener\">Figma Weave pricing page ↗</a>. Makers grouped by headquarters <span class=\"chip est\">estimate</span>",
    "why": "<p>The brand you see isn’t the company doing the work. One session in Figma Weave can send your prompts and images to <b>11 companies in 4 countries</b>, each with its own data centres, water use and labour chain.</p>"
   },
-  "seedance": {
-   "name": "Seedance",
-   "maker": "ByteDance",
-   "meta": "ByteDance · China",
-   "secs": [
-    [
-     "Who makes it",
-     [
-      "<div class=\"row\"><dt>Company</dt><dd>ByteDance, headquartered in China</dd></div>",
-      "<div class=\"row\"><dt>Models</dt><dd>Seedance and Seedream (video and image)</dd></div>"
-     ]
-    ]
-   ],
-   "xray": "<p>This card hasn’t been researched yet. It only says who makes Seedance: every other section needs checked sources first.</p><p><a class=\"src\" href=\"https://github.com/sayhellotosilva/disclaimer-extension/issues/new?title=Sources%20for%20Seedance\" target=\"_blank\" rel=\"noopener\">Suggest a source ↗</a></p>"
-  },
-  "kling": {
-   "name": "Kling",
-   "maker": "Kuaishou",
-   "meta": "Kuaishou · China",
-   "secs": [
-    [
-     "Who makes it",
-     [
-      "<div class=\"row\"><dt>Company</dt><dd>Kuaishou, headquartered in China</dd></div>",
-      "<div class=\"row\"><dt>Models</dt><dd>Kling (video)</dd></div>"
-     ]
-    ]
-   ],
-   "xray": "<p>This card hasn’t been researched yet. It only says who makes Kling: every other section needs checked sources first.</p><p><a class=\"src\" href=\"https://github.com/sayhellotosilva/disclaimer-extension/issues/new?title=Sources%20for%20Kling\" target=\"_blank\" rel=\"noopener\">Suggest a source ↗</a></p>"
-  },
   "qwen": {
    "name": "Qwen",
    "maker": "Alibaba",
@@ -673,20 +643,118 @@
    ],
    "xray": "<p>This card hasn’t been researched yet. It only says who makes LTX: every other section needs checked sources first.</p><p><a class=\"src\" href=\"https://github.com/sayhellotosilva/disclaimer-extension/issues/new?title=Sources%20for%20LTX\" target=\"_blank\" rel=\"noopener\">Suggest a source ↗</a></p>"
   },
-  "higgsfield": {
-   "name": "Higgsfield",
-   "maker": "Higgsfield AI",
-   "meta": "Higgsfield AI · USA",
+  "seedance": {
+   "name": "Seedance",
+   "maker": "ByteDance",
+   "meta": "ByteDance · China (Beijing) · in CapCut, Dreamina and Jianying",
    "secs": [
     [
-     "Who makes it",
+     "Where it lives",
      [
-      "<div class=\"row\"><dt>Company</dt><dd>Higgsfield AI, headquartered in USA</dd></div>",
-      "<div class=\"row\"><dt>Models</dt><dd>Video and image tools built on other companies’ models</dd></div>"
+      "<div class=\"row\"><dt>Malaysia</dt><dd>ByteDance is reported to be deploying about <b>36,000 Nvidia B200 chips</b> in Malaysia, through Aolani Cloud, for AI work outside China: a plan worth over $2.5 billion. <span class=\"chip ok\">sourced</span> <a class=\"src\" href=\"https://www.thestandard.com.hk/finance/article/326579/Chinas-ByteDance-gets-access-to-top-Nvidia-AI-chips-WSJ-reports\" target=\"_blank\" rel=\"noopener\">Reuters (citing the Wall Street Journal), Mar 2026 ↗</a></dd></div>",
+      "<div class=\"row\"><dt>Your data</dt><dd>TikTok, owned by the same company, was fined <b>€530 million</b> in 2025 by Ireland’s data regulator: staff in China could access European users’ data. <span class=\"chip ok\">sourced</span> <a class=\"src\" href=\"https://fortune.com/europe/2025/05/02/tiktok-fined-600-million-illegal-transfer-eu-personal-data-china-one-of-the-largest-fines/\" target=\"_blank\" rel=\"noopener\">Fortune, May 2025 ↗</a></dd></div>"
+     ]
+    ],
+    [
+     "What it’s made of",
+     [
+      "<p style=\"margin:0 0 4px\">Runs on Nvidia GPUs, made mostly by TSMC in Taiwan. These minerals go into them, and are mostly mined here (world share, 2025):</p><table class=\"mines\">\n    <tr><th><a href=\"https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-gallium.pdf\" target=\"_blank\" rel=\"noopener\">Gallium</a></th><td>China 99% (export controls since 2023)</td></tr>\n    <tr><th><a href=\"https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-copper.pdf\" target=\"_blank\" rel=\"noopener\">Copper</a></th><td>Chile 23% · DR Congo 14% · Peru 12%</td></tr>\n    <tr><th><a href=\"https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-tantalum.pdf\" target=\"_blank\" rel=\"noopener\">Tantalum</a></th><td>DR Congo 52% · Rwanda 16% · Nigeria 16%</td></tr>\n    <tr><th><a href=\"https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-tungsten.pdf\" target=\"_blank\" rel=\"noopener\">Tungsten</a></th><td>China 79%</td></tr>\n    <tr><th><a href=\"https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-tin.pdf\" target=\"_blank\" rel=\"noopener\">Tin</a></th><td>China 25% · Indonesia 21% · Peru 11%</td></tr>\n    <tr><th><a href=\"https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-rare-earths.pdf\" target=\"_blank\" rel=\"noopener\">Rare earths</a></th><td>China 69% · USA 13%</td></tr>\n  </table><span class=\"chip ok\">sourced</span> <a class=\"src\" href=\"https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-gallium.pdf\" target=\"_blank\" rel=\"noopener\">US Geological Survey, Mineral Commodity Summaries 2026 ↗</a>"
+     ]
+    ],
+    [
+     "Who trains it",
+     [
+      "<div class=\"row\"><dt>Not disclosed</dt><dd>ByteDance doesn’t say who labels Seedance’s data.</dd></div>",
+      "<div class=\"row\"><dt>Context</dt><dd>Chinese AI companies hire Kenyan annotators through middlemen for as little as <b>$5.42 for a 12-hour day</b>, with no contracts. Which companies isn’t known. <span class=\"chip ok\">sourced</span> <a class=\"src\" href=\"https://restofworld.org/2025/kenya-china-ai-workers/\" target=\"_blank\" rel=\"noopener\">Rest of World, Dec 2025 ↗</a></dd></div>"
+     ]
+    ],
+    [
+     "Environment",
+     [
+      "<div class=\"row\"><dt>Disclosure</dt><dd>ByteDance publishes no energy or water figures for Seedance.</dd></div>"
+     ]
+    ],
+    [
+     "Terms and conditions",
+     [
+      "<div class=\"row\"><dt>Your content</dt><dd>Seedance runs inside CapCut. CapCut’s terms give it a <b>perpetual, worldwide, royalty-free</b> licence to what you upload, plus your name, image and likeness. <span class=\"chip ok\">sourced</span> <a class=\"src\" href=\"https://www.digitalcameraworld.com/tech/social-media/capcuts-new-terms-of-service-are-angering-the-internet-and-so-confusing-that-video-editors-are-asking-chatgpt-to-decipher-them\" target=\"_blank\" rel=\"noopener\">Digital Camera World, Jun 2025 (on CapCut’s terms) ↗</a></dd></div>",
+      "<div class=\"row\"><dt>Safeguards</dt><dd>ByteDance says it blocks videos made from real faces and adds an invisible watermark. <span class=\"chip co\">company says</span> <a class=\"src\" href=\"https://techcrunch.com/2026/03/26/bytedances-new-ai-video-generation-model-dreamina-seedance-2-0-comes-to-capcut/\" target=\"_blank\" rel=\"noopener\">TechCrunch, Mar 2026 ↗</a></dd></div>"
+     ]
+    ],
+    [
+     "Politics",
+     [
+      "<div class=\"row\"><dt>EU lobbying</dt><dd>TikTok, ByteDance’s company in Europe, declared about <b>€1.25 million</b> a year, with five lobbyists in Brussels. <span class=\"chip ok\">sourced</span> <a class=\"src\" href=\"https://heise.de/-9840142\" target=\"_blank\" rel=\"noopener\">LobbyControl via heise online, 2024 (EU Transparency Register data) ↗</a></dd></div>"
      ]
     ]
    ],
-   "xray": "<p>This card hasn’t been researched yet. It only says who makes Higgsfield: every other section needs checked sources first.</p><p><a class=\"src\" href=\"https://github.com/sayhellotosilva/disclaimer-extension/issues/new?title=Sources%20for%20Higgsfield\" target=\"_blank\" rel=\"noopener\">Suggest a source ↗</a></p>"
+   "xray": "<p><b>Feb 2026:</b> Disney sent ByteDance a cease-and-desist letter, saying Seedance 2.0 was trained on and reproduced its characters, like <b>Spider-Man and Darth Vader</b>, without permission. Paramount sent one too. ByteDance said it would strengthen its safeguards.</p><span class=\"chip ok\">sourced</span> <a class=\"src\" href=\"https://www.dawn.com/news/1973649\" target=\"_blank\" rel=\"noopener\">Reuters, Feb 2026 ↗</a>"
+  },
+  "kling": {
+   "name": "Kling",
+   "maker": "Kuaishou",
+   "meta": "Kuaishou · China (Beijing)",
+   "secs": [
+    [
+     "Where it lives",
+     [
+      "<div class=\"row\"><dt>Singapore</dt><dd>Kling AI Pte. Ltd stores your data on servers in <b>Singapore</b>. Teams “around the world” can access it. <span class=\"chip co\">company says</span> <a class=\"src\" href=\"https://kling.ai/docs/privacy-policy\" target=\"_blank\" rel=\"noopener\">Kling AI Privacy Policy, Apr 2026 ↗</a></dd></div>"
+     ]
+    ],
+    [
+     "What it’s made of",
+     [
+      "<p style=\"margin:0 0 4px\">Kuaishou doesn’t say which AI chips run Kling. These minerals go into them, and are mostly mined here (world share, 2025):</p><table class=\"mines\">\n    <tr><th><a href=\"https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-gallium.pdf\" target=\"_blank\" rel=\"noopener\">Gallium</a></th><td>China 99% (export controls since 2023)</td></tr>\n    <tr><th><a href=\"https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-copper.pdf\" target=\"_blank\" rel=\"noopener\">Copper</a></th><td>Chile 23% · DR Congo 14% · Peru 12%</td></tr>\n    <tr><th><a href=\"https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-tantalum.pdf\" target=\"_blank\" rel=\"noopener\">Tantalum</a></th><td>DR Congo 52% · Rwanda 16% · Nigeria 16%</td></tr>\n    <tr><th><a href=\"https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-tungsten.pdf\" target=\"_blank\" rel=\"noopener\">Tungsten</a></th><td>China 79%</td></tr>\n    <tr><th><a href=\"https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-tin.pdf\" target=\"_blank\" rel=\"noopener\">Tin</a></th><td>China 25% · Indonesia 21% · Peru 11%</td></tr>\n    <tr><th><a href=\"https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-rare-earths.pdf\" target=\"_blank\" rel=\"noopener\">Rare earths</a></th><td>China 69% · USA 13%</td></tr>\n  </table><span class=\"chip ok\">sourced</span> <a class=\"src\" href=\"https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-gallium.pdf\" target=\"_blank\" rel=\"noopener\">US Geological Survey, Mineral Commodity Summaries 2026 ↗</a>"
+     ]
+    ],
+    [
+     "Who trains it",
+     [
+      "<div class=\"row\"><dt>Not disclosed</dt><dd>Kuaishou doesn’t say who labels Kling’s data.</dd></div>",
+      "<div class=\"row\"><dt>Context</dt><dd>Chinese AI companies hire Kenyan annotators through middlemen for as little as <b>$5.42 for a 12-hour day</b>, with no contracts. Which companies isn’t known. <span class=\"chip ok\">sourced</span> <a class=\"src\" href=\"https://restofworld.org/2025/kenya-china-ai-workers/\" target=\"_blank\" rel=\"noopener\">Rest of World, Dec 2025 ↗</a></dd></div>"
+     ]
+    ],
+    [
+     "Environment",
+     [
+      "<div class=\"row\"><dt>Disclosure</dt><dd>Kuaishou publishes no energy or water figures for Kling.</dd></div>"
+     ]
+    ],
+    [
+     "Terms and conditions",
+     [
+      "<div class=\"row\"><dt>Review</dt><dd>Your uploads and prompts can be scanned and reviewed, and used for product development. <span class=\"chip co\">company says</span> <a class=\"src\" href=\"https://kling.ai/docs/privacy-policy\" target=\"_blank\" rel=\"noopener\">Kling AI Privacy Policy, Apr 2026 ↗</a></dd></div>",
+      "<div class=\"row\"><dt>Sharing</dt><dd>Your data can be shared with its corporate group and, in some cases, with authorities and law enforcement. <span class=\"chip co\">company says</span> <a class=\"src\" href=\"https://kling.ai/docs/privacy-policy\" target=\"_blank\" rel=\"noopener\">Kling AI Privacy Policy, Apr 2026 ↗</a></dd></div>"
+     ]
+    ]
+   ],
+   "xray": "<p><b>Censorship:</b> Prompts like “Democracy in China”, “Tiananmen Square protests” or “Chinese President Xi Jinping walking down the street” returned an error instead of a video.</p><span class=\"chip ok\">sourced</span> <a class=\"src\" href=\"https://techcrunch.com/2024/07/24/a-new-chinese-video-generating-model-appears-to-be-censoring-politically-sensitive-topics\" target=\"_blank\" rel=\"noopener\">TechCrunch, Jul 2024 ↗</a>"
+  },
+  "higgsfield": {
+   "type": "wrapper",
+   "name": "Higgsfield",
+   "maker": "Higgsfield AI",
+   "meta": "Higgsfield AI · USA (San Francisco) · founded 2023 <a class=\"src\" href=\"https://www.thestar.com.my/tech/tech-news/2026/01/15/ai-video-startup-higgsfield-hits-13-billion-valuation-with-latest-funding\" target=\"_blank\" rel=\"noopener\">Reuters, Jan 2026 ↗</a>",
+   "intro": "Higgsfield builds no foundation model of its own. It sends your prompts to other companies’ models, including:",
+   "groups": [
+    [
+     "USA",
+     [
+      [
+       "OpenAI",
+       "Sora 2 · Higgsfield is its biggest customer",
+       "chatgpt"
+      ],
+      [
+       "Google",
+       "Nano Banana",
+       "gemini"
+      ]
+     ]
+    ]
+   ],
+   "note": "It offers 12 video models; Forbes names these two <a class=\"src\" href=\"https://www.forbes.com/sites/rashishrivastava/2026/02/11/racist-videos-and-payment-problems-the-dark-side-of-this-ai-startups-super-fast-growth/\" target=\"_blank\" rel=\"noopener\">Forbes, Feb 2026 ↗</a>. It “integrates third-party models” <a class=\"src\" href=\"https://www.thestar.com.my/tech/tech-news/2026/01/15/ai-video-startup-higgsfield-hits-13-billion-valuation-with-latest-funding\" target=\"_blank\" rel=\"noopener\">Reuters, Jan 2026 ↗</a>",
+   "why": "<p><b>Feb 2026:</b> Creators promoting Higgsfield were given racist and sexual videos of cartoon characters like Moana and Mickey Mouse, and deepfakes of Sydney Sweeney, Zendaya and Donald Trump made without consent. Users also reported “unlimited” plans slowed to near-unusable. Its co-founder called the videos “a mistake”.</p><span class=\"chip ok\">sourced</span> <a class=\"src\" href=\"https://www.forbes.com/sites/rashishrivastava/2026/02/11/racist-videos-and-payment-problems-the-dark-side-of-this-ai-startups-super-fast-growth/\" target=\"_blank\" rel=\"noopener\">Forbes, Feb 2026 ↗</a>"
   }
  },
  "aliases": [

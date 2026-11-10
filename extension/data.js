@@ -84,6 +84,19 @@ const S = {
   mLca:{t:"Mistral AI with Carbone 4 & ADEME, Jul 2025",u:"https://mistral.ai/news/our-contribution-to-a-global-environmental-standard-for-ai"},
   mHelp:{t:"Mistral Help Center",u:"https://help.mistral.ai/en/articles/455207-can-i-opt-out-of-my-input-or-output-data-being-used-for-training"},
   mLobby:{t:"EU Transparency Register via LobbyFacts",u:"https://www.lobbyfacts.eu/datacard/mistral-ai?rid=539437350687-42"},
+  // Seedance (ByteDance)
+  bdMy:{t:"Reuters (citing the Wall Street Journal), Mar 2026",u:"https://www.thestandard.com.hk/finance/article/326579/Chinas-ByteDance-gets-access-to-top-Nvidia-AI-chips-WSJ-reports"},
+  ttFine:{t:"Fortune, May 2025",u:"https://fortune.com/europe/2025/05/02/tiktok-fined-600-million-illegal-transfer-eu-personal-data-china-one-of-the-largest-fines/"},
+  ccTos:{t:"Digital Camera World, Jun 2025 (on CapCut’s terms)",u:"https://www.digitalcameraworld.com/tech/social-media/capcuts-new-terms-of-service-are-angering-the-internet-and-so-confusing-that-video-editors-are-asking-chatgpt-to-decipher-them"},
+  sdCc:{t:"TechCrunch, Mar 2026",u:"https://techcrunch.com/2026/03/26/bytedances-new-ai-video-generation-model-dreamina-seedance-2-0-comes-to-capcut/"},
+  ttLobby:{t:"LobbyControl via heise online, 2024 (EU Transparency Register data)",u:"https://heise.de/-9840142"},
+  sdDis:{t:"Reuters, Feb 2026",u:"https://www.dawn.com/news/1973649"},
+  // Kling (Kuaishou)
+  klPriv:{t:"Kling AI Privacy Policy, Apr 2026",u:"https://kling.ai/docs/privacy-policy"},
+  klCens:{t:"TechCrunch, Jul 2024",u:"https://techcrunch.com/2024/07/24/a-new-chinese-video-generating-model-appears-to-be-censoring-politically-sensitive-topics"},
+  // Higgsfield
+  hfR:{t:"Reuters, Jan 2026",u:"https://www.thestar.com.my/tech/tech-news/2026/01/15/ai-video-startup-higgsfield-hits-13-billion-valuation-with-latest-funding"},
+  hfF:{t:"Forbes, Feb 2026",u:"https://www.forbes.com/sites/rashishrivastava/2026/02/11/racist-videos-and-payment-problems-the-dark-side-of-this-ai-startups-super-fast-growth/"},
   // Figma Weave
   weave:{t:"Figma Weave pricing page",u:"https://weave.figma.com/pricing"},
   figma:{t:"Figma, 2025",u:"https://www.figma.com/blog/welcome-weavy-to-figma/"}
@@ -313,15 +326,52 @@ const DATA = {
 
   /* Cards not researched yet: they say who makes the tool and ask for sources.
      Replace one with a full card once its facts are checked. */
-  seedance: stub("Seedance","ByteDance","China","Seedance and Seedream (video and image)"),
-  kling:    stub("Kling","Kuaishou","China","Kling (video)"),
   qwen:     stub("Qwen","Alibaba","China","Qwen and Wan (text, image and video)"),
   hunyuan:  stub("Hunyuan","Tencent","China","Hunyuan (text, image and 3D)"),
   runway:   stub("Runway","Runway","USA","Gen-4.5 and other video models"),
   luma:     stub("Luma AI","Luma AI","USA","Ray and Dream Machine (video)"),
   flux:     stub("Flux","Black Forest Labs","Germany","Flux (image)"),
   ltx:      stub("LTX","Lightricks","Israel","LTX (video)"),
-  higgsfield: stub("Higgsfield","Higgsfield AI","USA","Video and image tools built on other companies’ models")
+
+  seedance:{name:"Seedance",maker:"ByteDance",meta:"ByteDance · China (Beijing) · in CapCut, Dreamina and Jianying",
+    secs:[
+      ["Where it lives",[
+        row("Malaysia",`ByteDance is reported to be deploying about <b>36,000 Nvidia B200 chips</b> in Malaysia, through Aolani Cloud, for AI work outside China: a plan worth over $2.5 billion. ${ok} ${src("bdMy")}`),
+        row("Your data",`TikTok, owned by the same company, was fined <b>€530 million</b> in 2025 by Ireland’s data regulator: staff in China could access European users’ data. ${ok} ${src("ttFine")}`)]],
+      ["What it’s made of",[minerals(NVIDIA)]],
+      ["Who trains it",[
+        row("Not disclosed",`ByteDance doesn’t say who labels Seedance’s data.`),
+        row("Context",`Chinese AI companies hire Kenyan annotators through middlemen for as little as <b>$5.42 for a 12-hour day</b>, with no contracts. Which companies isn’t known. ${ok} ${src("row")}`)]],
+      ["Environment",[row("Disclosure",`ByteDance publishes no energy or water figures for Seedance.`)]],
+      ["Terms and conditions",[
+        row("Your content",`Seedance runs inside CapCut. CapCut’s terms give it a <b>perpetual, worldwide, royalty-free</b> licence to what you upload, plus your name, image and likeness. ${ok} ${src("ccTos")}`),
+        row("Safeguards",`ByteDance says it blocks videos made from real faces and adds an invisible watermark. ${co} ${src("sdCc")}`)]],
+      ["Politics",[row("EU lobbying",`TikTok, ByteDance’s company in Europe, declared about <b>€1.25 million</b> a year, with five lobbyists in Brussels. ${ok} ${src("ttLobby")}`)]]
+    ],
+    xray:`<p><b>Feb 2026:</b> Disney sent ByteDance a cease-and-desist letter, saying Seedance 2.0 was trained on and reproduced its characters, like <b>Spider-Man and Darth Vader</b>, without permission. Paramount sent one too. ByteDance said it would strengthen its safeguards.</p>${ok} ${src("sdDis")}`},
+
+  kling:{name:"Kling",maker:"Kuaishou",meta:"Kuaishou · China (Beijing)",
+    secs:[
+      ["Where it lives",[
+        row("Singapore",`Kling AI Pte. Ltd stores your data on servers in <b>Singapore</b>. Teams “around the world” can access it. ${co} ${src("klPriv")}`)]],
+      ["What it’s made of",[minerals("Kuaishou doesn’t say which AI chips run Kling.")]],
+      ["Who trains it",[
+        row("Not disclosed",`Kuaishou doesn’t say who labels Kling’s data.`),
+        row("Context",`Chinese AI companies hire Kenyan annotators through middlemen for as little as <b>$5.42 for a 12-hour day</b>, with no contracts. Which companies isn’t known. ${ok} ${src("row")}`)]],
+      ["Environment",[row("Disclosure",`Kuaishou publishes no energy or water figures for Kling.`)]],
+      ["Terms and conditions",[
+        row("Review",`Your uploads and prompts can be scanned and reviewed, and used for product development. ${co} ${src("klPriv")}`),
+        row("Sharing",`Your data can be shared with its corporate group and, in some cases, with authorities and law enforcement. ${co} ${src("klPriv")}`)]]
+    ],
+    xray:`<p><b>Censorship:</b> Prompts like “Democracy in China”, “Tiananmen Square protests” or “Chinese President Xi Jinping walking down the street” returned an error instead of a video.</p>${ok} ${src("klCens")}`},
+
+  higgsfield:{type:"wrapper",name:"Higgsfield",maker:"Higgsfield AI",meta:`Higgsfield AI · USA (San Francisco) · founded 2023 ${src("hfR")}`,
+    intro:"Higgsfield builds no foundation model of its own. It sends your prompts to other companies’ models, including:",
+    groups:[
+      ["USA",[["OpenAI","Sora 2 · Higgsfield is its biggest customer","chatgpt"],["Google","Nano Banana","gemini"]]]
+    ],
+    note:`It offers 12 video models; Forbes names these two ${src("hfF")}. It “integrates third-party models” ${src("hfR")}`,
+    why:`<p><b>Feb 2026:</b> Creators promoting Higgsfield were given racist and sexual videos of cartoon characters like Moana and Mickey Mouse, and deepfakes of Sydney Sweeney, Zendaya and Donald Trump made without consent. Users also reported “unlimited” plans slowed to near-unusable. Its co-founder called the videos “a mistake”.</p>${ok} ${src("hfF")}`}
 };
 
 
